@@ -1,0 +1,63 @@
+# peptide-db
+
+An open, community-maintained dataset of peptides: tags, reported benefits, common protocol notes, compatibility hints, half-life, and source links.
+
+This dataset powers the "Peptide Database" browser in the [Peptide Log](https://apps.apple.com/app/id6744315346) iOS app, and anyone is welcome to use it or contribute to it.
+
+## The data
+
+Everything lives in [`peptides.json`](peptides.json):
+
+```jsonc
+{
+  "schemaVersion": 1,        // bumped on breaking structure changes
+  "updatedAt": "2026-07-11", // date of last content change
+  "license": "CC0-1.0",
+  "entries": [
+    {
+      "id": "bpc-157",       // stable slug, never reused
+      "name": "BPC-157",
+      "tags": ["Healing"],
+      "benefits": "...",
+      "protocols": "...",
+      "goodWith": "...",
+      "notGoodWith": "...",
+      "halfLife": "...",     // free text
+      "notes": "...",
+      "link": "https://...", // primary source / further reading
+      "sideEffects": "..."
+    }
+  ]
+}
+```
+
+Consume it raw:
+
+```
+https://raw.githubusercontent.com/Johannes-ece/peptide-db/main/peptides.json
+```
+
+or via CDN (cached, for higher-traffic use):
+
+```
+https://cdn.jsdelivr.net/gh/Johannes-ece/peptide-db@main/peptides.json
+```
+
+## Contributing
+
+Open a pull request that edits `peptides.json`:
+
+- Keep the `id` of existing entries unchanged; new entries get a lowercase-dash slug of the name.
+- Bump `updatedAt`.
+- Cite a source in `link` for new entries or substantive claims.
+- Plain, factual language. No marketing, no medical recommendations, no dosing advice presented as instruction.
+
+Maintainers review PRs for formatting and obvious vandalism only. A merged PR is not an endorsement of its content.
+
+## Disclaimer
+
+This is an informational, community-edited list. It is **not medical advice**, it is **not curated or verified by any medical professional**, and its accuracy, completeness, and currency are **not guaranteed by anyone**, including the maintainers and any app that displays it. Peptides referenced here may be unapproved, investigational, or regulated substances in your jurisdiction. Always consult a licensed healthcare provider. **Use at your own risk.**
+
+## License
+
+[CC0 1.0](LICENSE): public domain dedication. Do whatever you want with the data; attribution appreciated but not required.
