@@ -42,6 +42,20 @@ Everything lives in [`peptides.json`](peptides.json):
 
 Optional fields may be absent; consumers must fall back gracefully. They are additive within schema v1.
 
+### Sourcing rule for PK values
+
+`halfLifeHours`, `tMaxHours`, `bioavailability`, `modelType`, and `effectDurationDays` drive concentration curves in downstream apps. A wrong number there is worse than no number.
+
+**Every PK value must carry a citation** in the entry's `sources` array:
+
+```jsonc
+"sources": [
+  { "field": "halfLifeHours", "value": 168, "url": "https://...", "note": "HUMAN, FDA label, Ozempic §12.3" }
+]
+```
+
+Acceptable sources: FDA/EMA labels, peer-reviewed literature, manufacturer prescribing information. Not acceptable: vendor sites, forums, blogs. If only animal or in-vitro data exists, the value may be included but the note **must** say so. If no credible published value exists, **omit the field** — most research peptides genuinely have no human PK, and a blank is the honest answer.
+
 Consume it raw:
 
 ```

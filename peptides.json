@@ -38,8 +38,7 @@
       "notes": "AOD stands for Anti Obesity Drug • Modified form of Frag 176-191 • May need a month for the effects to kick in • Use for minimum of 3 months • Some think it’s not cost-effective given how long it takes to see the results • Recently all major vendors started having issue with AOD turning into jelly. Some solce it by adding more BAC water, some throw away the via",
       "link": "https://www.genemedics.com/aod-9604",
       "sideEffects": "• Diarrhea • Flatulence • Increased appetite • Mild or moderate headache • Nausea",
-      "formFactor": "Injectable",
-      "halfLifeHours": 0.067
+      "formFactor": "Injectable"
     },
     {
       "id": "ara-290",
@@ -92,7 +91,22 @@
       "notes": "• BPC stand for Body Protective Compound",
       "link": "https://www.genemedics.com/bpc-157",
       "sideEffects": "• Changes in blood pressure • Changes in heart rhythm • Dizziness • Fatigue • Hot flashes • Nausea and vomiting • Can affect mood if taking with SSRI • Discontinue if causes depression or anxiety symptoms",
-      "halfLifeHours": 4
+      "halfLifeHours": 0.5,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 0.5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42198317/",
+          "note": "ANIMAL DATA + 2-subject human pilot. Mateescu et al., Pharmaceutics 2026;18(5):625 (peer-reviewed review): formal preclinical ADME in two species confirms a 'sub-30-min plasma half-life, linear dose-proportional kinetics, and intramuscular bioavailability of 14-51% depending on species'; a 'plasma half-life of under 30 min' was 'confirmed preclinically and in a preliminary two-subject human pilot'. 0.5 h is the published UPPER BOUND, not a measured mean. The dataset's current 4 h value is not supported by any source found."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42198317/",
+          "note": "Follows directly from the sub-30-min plasma half-life. Note the same review flags a PK/PD disconnect: plasma clearance is fast but biological effects persist hours to days, so a plasma-concentration curve will understate duration of effect."
+        }
+      ]
     },
     {
       "id": "cjc-1295",
@@ -115,7 +129,30 @@
       "notes": "• Also known as MOD GRF (1-29) • Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • CJC-1295 no DAC has shorter half-life, so more frequent injections are needed • CJC-1295 DAC has longer half-life, so fewer injections are needed",
       "link": "https://www.genemedics.com/cjc-1295",
       "sideEffects": "• Water retention • Tingling • Numbness and decreased insulin  • Tiredness, feeling of lethargy • Head rush or euphoria • Itching",
-      "formFactor": "Injectable"
+      "formFactor": "Injectable",
+      "halfLifeHours": 192,
+      "modelType": "depot",
+      "effectDurationDays": 6,
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 192,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17018654/",
+          "note": "HUMAN. Ionescu M, Frohman LA. J Clin Endocrinol Metab 2006;91(12):4792-7: CJC-1295 'binds permanently to endogenous albumin after injection (half-life = 8 d)'. CONFLICTING/COMPLEMENTARY: Teichman SL et al., J Clin Endocrinol Metab 2006;91(3):799-805 (https://pubmed.ncbi.nlm.nih.gov/16352683/) estimated the half-life at 5.8-8.1 days in healthy adults after subcutaneous dosing. 192 h = 8 d is the explicitly published single value; the maintainer may prefer ~168 h (7 d) as the centre of Teichman's range. THIS IS THE DAC FORM ONLY."
+        },
+        {
+          "field": "effectDurationDays",
+          "value": 6,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+          "note": "HUMAN. Teichman 2006: after a single subcutaneous injection there were 'dose-dependent increases in mean plasma GH concentrations by 2- to 10-fold for 6 d or more and in mean plasma IGF-I concentrations by 1.5- to 3-fold for 9-11 d'. 6 days is the conservative (GH) figure; the IGF-1 effect ran 9-11 days."
+        },
+        {
+          "field": "modelType",
+          "value": "depot",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+          "note": "Albumin-bound DAC form, half-life ~6-8 days, dosed weekly/biweekly in the Teichman trials."
+        }
+      ]
     },
     {
       "id": "dihexa",
@@ -148,7 +185,22 @@
       "link": "https://www.genemedics.com/delta-sleep-inducing-peptide",
       "sideEffects": "• Headache • Hypotension (low blood pressure) • Vagal reactions (dizziness, ringing ears, and sweating) • Vomiting",
       "formFactor": "Injectable",
-      "halfLifeHours": 0.125
+      "halfLifeHours": 0.067,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 0.067,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6379493/",
+          "note": "ANIMAL DATA. Kato N et al., Neuroendocrinology 1984;39(1):39-44: DSIP showed 'a rapid disappearance with a mean metabolic clearance rate of 30.7 +/- 2.5 ml/kg.min and a mean half-life of 4.0 +/- 0.7 min in the dogs', with 2.9 min in a monkey and 2.0 +/- 0.54 min in rats. 0.067 h = 4 min (dog). NO HUMAN PK EXISTS. This conflicts with the dataset's current 7-8 minute claim, for which no source could be located."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42123471/",
+          "note": "Corroborated qualitatively in Int J Mol Sci 2026;27:3890 peer-reviewed review: 'DSIP has a half-life of minutes and is rapidly eliminated'."
+        }
+      ]
     },
     {
       "id": "epitalon-epithalon-epithalamin",
@@ -217,8 +269,7 @@
       "notes": "• Also known as Humanin - HN • There is a modified/concentrated version Humanin G (HN-G). The protocol is in mcg, but not clearly established • Can stack with MOTS-C after SS-31",
       "link": "https://gero.usc.edu/2020/06/24/protein-in-mitochondria-may-regulate-health-and-longevity/",
       "sideEffects": "",
-      "formFactor": "Injectable",
-      "halfLifeHours": 0.5
+      "formFactor": "Injectable"
     },
     {
       "id": "ibutamoren-mk-677",
@@ -237,7 +288,15 @@
       "link": "https://www.genemedics.com/mk-677",
       "sideEffects": "• Increased appetite • Headaches • Increased blood sugar levels • Increased insulin levels • Increased levels of the stress hormone cortisol • Sleepiness • Mild lower extremity edema • Muscle pain",
       "formFactor": "Oral",
-      "halfLifeHours": 24
+      "effectDurationDays": 1,
+      "sources": [
+        {
+          "field": "effectDurationDays",
+          "value": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42123471/",
+          "note": "HUMAN (pharmacodynamic duration, not plasma PK). Int J Mol Sci 2026;27:3890 peer-reviewed review: MK-677 'stimulat[es] sustained GH and IGF-1 secretion for ~24 h with a single daily dose', citing Chapman I et al., J Clin Endocrinol Metab 1997;82:3455-63 (https://pubmed.ncbi.nlm.nih.gov/9329386/). Consistent with once-daily oral dosing."
+        }
+      ]
     },
     {
       "id": "ipamorelin",
@@ -258,7 +317,22 @@
       "link": "https://www.genemedics.com/ipamorelin",
       "sideEffects": "• Facial flushing • Feeling warm • Tachycardia (rare, usually short-lived 5 minutes) • ISR • Headaches • Muscle pain • Water retention",
       "formFactor": "Injectable",
-      "halfLifeHours": 2
+      "halfLifeHours": 2,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+          "note": "HUMAN. Gobburu JV, Agerso H, Jusko WJ, Ynddal L. Pharm Res 1999;16(9):1412-6, PK/PD study in healthy male volunteers (15-min IV infusions, 5 dose levels): 'The PK parameters showed dose-proportionality, with a short terminal half-life of 2 hours, a clearance of 0.078 L/h/kg and a volume of distribution at steady-state of 0.22 L/kg.' Confirms the value already in the dataset. Corroborated by Front Endocrinol 2026;17:1822475 (t1/2 ~2 h, human)."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+          "note": "Terminal half-life 2 h; GH response is a single episode peaking at 0.67 h and declining exponentially to negligible levels."
+        }
+      ]
     },
     {
       "id": "kpv",
@@ -381,6 +455,59 @@
       "formFactor": "Nasal"
     },
     {
+      "id": "retatrutide",
+      "name": "Retatrutide",
+      "tags": [
+        "Weight Loss",
+        "Energy"
+      ],
+      "benefits": "• Triple agonist: GIP + GLP-1 + glucagon receptors • The largest weight reductions reported for an incretin agent in phase 2 trials (up to -24.2% at 48 weeks at 12 mg) • Improved glycemic control in type 2 diabetes (phase 1b/2) • Reduced liver fat in metabolic dysfunction-associated steatotic liver disease (phase 2a) • Increased satiety and reduced food intake • The glucagon arm additionally raises energy expenditure",
+      "protocols": "INVESTIGATIONAL — retatrutide (LY3437943) is NOT approved by the FDA or EMA. There is no prescribing information and no approved dosing schedule. The schedules below are the doses studied in the published trials, reported for reference only. Phase 2 obesity trial (Jastreboff et al., N Engl J Med 2023;389:514-526): subcutaneous retatrutide once weekly for 48 weeks in adults with obesity, at 1 mg, 4 mg (starting at 2 mg or 4 mg), 8 mg (starting at 2 mg or 4 mg), or 12 mg (starting at 2 mg), versus placebo. Doses were escalated stepwise; the trial reported that gastrointestinal side effects were dose-related and were partially mitigated by the lower 2 mg starting dose rather than 4 mg. Phase 1b in type 2 diabetes (Urva et al., Lancet 2022;400:1869-1881): once-weekly subcutaneous dosing over 12 weeks. Phase 3 (TRIUMPH programme) is ongoing.",
+      "goodWith": "",
+      "notGoodWith": "Semaglutide, Semaglutide Oral, Tirzepatide, other GLP-1 receptor agonists (do not combine)",
+      "halfLife": "Approximately 6 days (~144 hours)",
+      "notes": "• INVESTIGATIONAL COMPOUND. Not FDA- or EMA-approved. There is no manufacturer label, no approved indication, and no long-term safety data. Everything below comes from published phase 1 and phase 2 trials • Triple GIP / GLP-1 / glucagon receptor agonist developed by Eli Lilly • The ~6-day half-life supports once-weekly subcutaneous dosing, which is what all trials used • Absolute subcutaneous bioavailability has NOT been published, so the bioavailability field is deliberately omitted • Phase 2 saw dose-dependent increases in heart rate that peaked at 24 weeks and then declined • In phase 1, weight reduction after a single dose persisted up to day 43 • Material sold outside a clinical trial is not a regulated pharmaceutical product and its identity, purity and dose are not verified",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+      "sideEffects": "• Nausea • Vomiting • Diarrhea • Constipation • Gastrointestinal effects were dose-related, mostly mild to moderate, and partially mitigated by a lower starting dose • Dose-dependent increase in heart rate (peaked at 24 weeks, then declined) • Decreased appetite • Long-term safety profile is unknown — the compound is still in phase 3 trials",
+      "formFactor": "Injectable",
+      "halfLifeHours": 144,
+      "tMaxHours": 24,
+      "modelType": "depot",
+      "effectDurationDays": 7,
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 144,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36354040/",
+          "note": "HUMAN. Urva S et al., 'LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial', Lancet 2022;400(10366):1869-1881, verbatim: 'Median time to tmax was 12-48 h postdose, and the half-life was approximately 6 days.' 6 days = 144 h. Corroborated by Coskun T et al., Cell Metab 2022;34(9):1234-1247 (phase 1 SAD in healthy participants): 'the mean terminal half-life was ~5 to 7 days, thus supporting a once-weekly dosing regimen'."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 24,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36354040/",
+          "note": "HUMAN, SUBCUTANEOUS (matches form factor). RANGES ONLY ARE PUBLISHED, and the two trials differ: Urva 2022 (Lancet, type 2 diabetes, multiple ascending dose) reports 'Median time to tmax was 12-48 h postdose'; Coskun 2022 (Cell Metab, healthy participants, single ascending dose) reports Cmax 'occurred between ~1 and 3 days postdose' (24-72 h). 24 h is the value common to both published ranges. Treat as approximate."
+        },
+        {
+          "field": "modelType",
+          "value": "depot",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36354040/",
+          "note": "~6-day half-life with slow absorption and once-weekly subcutaneous dosing throughout the phase 1/2/3 programme."
+        },
+        {
+          "field": "effectDurationDays",
+          "value": 7,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37366315/",
+          "note": "Derived from the TRIAL DOSING INTERVAL, not from a duration-of-action study: all published trials (Urva 2022 phase 1b; Jastreboff et al., N Engl J Med 2023;389:514-526 phase 2) dose retatrutide subcutaneously ONCE WEEKLY, and the ~6-day half-life is explicitly described as 'supporting a once-weekly dosing regimen'. For context, the phase 1 SAD study reported that weight reduction after a SINGLE dose persisted up to day 43."
+        },
+        {
+          "field": "bioavailability",
+          "value": null,
+          "url": "",
+          "note": "DELIBERATELY OMITTED. No absolute subcutaneous bioavailability has been published for retatrutide in any phase 1/2 report located. Do not populate this field."
+        }
+      ]
+    },
+    {
       "id": "selank",
       "name": "Selank",
       "tags": [
@@ -395,6 +522,107 @@
       "notes": "• Can be used as an antidepressant, anxiolytic, generalized anxiety disorder (GAD) treatment",
       "link": "https://www.genemedics.com/selank",
       "sideEffects": "• Dizziness • Fatigue • Hair loss • Headaches • Nasal irritations • Nausea • Sore throat"
+    },
+    {
+      "id": "semaglutide",
+      "name": "Semaglutide",
+      "tags": [
+        "Weight Loss",
+        "Energy"
+      ],
+      "benefits": "• Substantial, sustained weight reduction • Improved glycemic control in type 2 diabetes (HbA1c reduction) • Reduced major adverse cardiovascular events in adults with established cardiovascular disease and overweight/obesity • Slows gastric emptying and increases satiety • Reduces risk of sustained eGFR decline and end-stage kidney disease in type 2 diabetes with CKD • Reduced appetite and food cravings",
+      "protocols": "Semaglutide is a prescription GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, same day each week, any time of day, with or without meals. Type 2 diabetes (OZEMPIC, FDA prescribing information): • 0.25 mg once weekly for 4 weeks (initiation dose, not for glycemic control) • increase to 0.5 mg once weekly • after at least 4 weeks, may increase to 1 mg once weekly • after at least 4 weeks, may increase to a maximum of 2 mg once weekly. Weight management (WEGOVY, FDA prescribing information): • Weeks 1-4: 0.25 mg once weekly • Weeks 5-8: 0.5 mg • Weeks 9-12: 1 mg • Weeks 13-16: 1.7 mg • Week 17 onward: 2.4 mg (recommended maintenance); a 7.2 mg maximum maintenance dose is available for patients who tolerate 2.4 mg for at least 4 weeks and need additional weight reduction. The label notes that if a dose is not tolerated, escalation may be delayed by 4 weeks.",
+      "goodWith": "",
+      "notGoodWith": "Tirzepatide, Retatrutide, Semaglutide Oral, other GLP-1 receptor agonists (do not combine — labels advise against coadministration of two GLP-1 receptor agonists)",
+      "halfLife": "Approximately 1 week (~168 hours)",
+      "notes": "• GLP-1 receptor agonist; brand names OZEMPIC (type 2 diabetes) and WEGOVY (weight management) • The long half-life comes from albumin binding, which lowers renal clearance and protects against DPP-4 degradation • Semaglutide stays in the circulation for about 5 weeks after the last dose, so effects and side effects clear slowly • Steady state is reached after 4-5 weeks of weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • If a dose is missed it can be taken within 5 days; after that, skip it • Delays gastric emptying, which can affect absorption of other oral medications • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+      "sideEffects": "• Nausea • Vomiting • Diarrhea • Abdominal pain • Constipation • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Acute kidney injury (usually via dehydration from GI losses) • Diabetic retinopathy complications • Increased heart rate • Pulmonary aspiration during general anesthesia or deep sedation • Injection site reactions",
+      "formFactor": "Injectable",
+      "halfLifeHours": 168,
+      "tMaxHours": 48,
+      "bioavailability": 0.89,
+      "modelType": "depot",
+      "effectDurationDays": 7,
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 168,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+          "note": "FDA label, OZEMPIC (semaglutide) injection, section 12.3: 'With an elimination half-life of approximately 1 week, semaglutide will be present in the circulation for about 5 weeks after the last dose.' 1 week = 168 h."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 48,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+          "note": "FDA label, OZEMPIC section 12.3, verbatim: 'Maximum concentration of semaglutide is reached 1 to 3 days post dose.' Identical wording in the WEGOVY label. 48 h is the midpoint of the labeled 24-72 h range; the label publishes a RANGE, not a point estimate."
+        },
+        {
+          "field": "bioavailability",
+          "value": 0.89,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+          "note": "FDA label, SUBCUTANEOUS route (matches form factor). OZEMPIC section 12.3: 'Absolute bioavailability of semaglutide is 89%.' WEGOVY label: 'Absolute bioavailability of semaglutide is 89% following subcutaneous administration.'"
+        },
+        {
+          "field": "modelType",
+          "value": "depot",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+          "note": "Once-weekly subcutaneous dosing, ~1 week half-life, slow absorption (tmax 1-3 days) - matches the 'depot' definition (weekly+ dosing, sustained exposure)."
+        },
+        {
+          "field": "effectDurationDays",
+          "value": 7,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+          "note": "Derived from the APPROVED DOSING INTERVAL, not from a single-dose duration-of-action study: the FDA label prescribes once-weekly administration and a single dose maintains effect across the 7-day interval. The label also permits taking a missed dose up to 5 days late, which supports a >=7 day window of meaningful action."
+        }
+      ]
+    },
+    {
+      "id": "semaglutide-oral",
+      "name": "Semaglutide Oral",
+      "tags": [
+        "Weight Loss",
+        "Energy"
+      ],
+      "benefits": "• Improved glycemic control in type 2 diabetes (HbA1c reduction) • Weight reduction • Reduced appetite and increased satiety • Oral route — no injection required • Same GLP-1 receptor agonist molecule as injectable semaglutide",
+      "protocols": "Prescription oral GLP-1 receptor agonist (semaglutide co-formulated with the absorption enhancer SNAC). All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Administration (FDA prescribing information): take one tablet once daily on an empty stomach in the morning with no more than 4 ounces of water; swallow whole (do not split, crush or chew); wait at least 30 minutes before eating, drinking anything else, or taking other oral medications. Titration (RYBELSUS, FDA prescribing information): • Days 1-30: 3 mg once daily (initiation dose, not effective for glycemic control) • Days 31-60: 7 mg once daily • Day 61 onward: stay at 7 mg, or increase to 14 mg once daily if additional glycemic control is needed. A newer OZEMPIC tablet formulation uses 1.5 mg / 4 mg / 9 mg steps on the same 30-day schedule; the two formulations are NOT interchangeable milligram-for-milligram. WEGOVY tablets (weight management) titrate from 1.5 mg once daily every 30 days to a 25 mg once-daily maintenance dose.",
+      "goodWith": "",
+      "notGoodWith": "Semaglutide (injectable), Tirzepatide, Retatrutide, other GLP-1 receptor agonists (do not combine)",
+      "halfLife": "Approximately 1 week (~168 hours), same as injectable semaglutide",
+      "notes": "• Brand names RYBELSUS (type 2 diabetes), and WEGOVY tablets / OZEMPIC tablets • Absorption happens predominantly in the STOMACH and is highly sensitive to food, water volume and post-dose fasting time — this is why the empty-stomach, 30-minute-wait rule matters so much • Oral bioavailability is very low (roughly 0.4-1%), which is why the oral milligram doses look so different from the injectable ones • Despite once-daily dosing, the elimination half-life is still about a week, so the drug persists ~5 weeks after the last tablet and steady state takes 4-5 weeks • effectDurationDays is deliberately omitted: no single-dose duration-of-action figure is published for the oral form (it is dosed daily) • Boxed warning: risk of thyroid C-cell tumors • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+      "sideEffects": "• Nausea • Abdominal pain • Diarrhea • Decreased appetite • Vomiting • Constipation • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Diabetic retinopathy complications • Acute kidney injury • Pulmonary aspiration during general anesthesia or deep sedation",
+      "formFactor": "Oral",
+      "halfLifeHours": 168,
+      "tMaxHours": 1,
+      "bioavailability": 0.007,
+      "modelType": "longActing",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 168,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+          "note": "FDA label, RYBELSUS / OZEMPIC tablets, section 12.3: 'Semaglutide elimination half-life is approximately one week with an absolute clearance of approximately 0.04 L/hour in patients with type 2 diabetes. Semaglutide is present in the circulation for about five weeks after the last semaglutide tablet dose.' 1 week = 168 h. A published clinical-pharmacology analysis (Clin Pharmacokinet, https://pmc.ncbi.nlm.nih.gov/articles/PMC8505367/) reports the mean terminal half-life more precisely as 153-161 h."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 1,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+          "note": "FDA label, ORAL route (matches form factor). RYBELSUS section 12.3, verbatim: 'Semaglutide maximum concentration was reached approximately 1-hour after oral administration of semaglutide tablets.'"
+        },
+        {
+          "field": "bioavailability",
+          "value": 0.007,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+          "note": "FDA label, ORAL route (matches form factor). RYBELSUS section 12.3, verbatim: 'Semaglutide estimated absolute bioavailability was approximately: 0.4% to 1% after oral administration of 3 mg, 7 mg and 14 mg of RYBELSUS; 1% to 2% after oral administration of 1.5 mg, 4 mg and 9 mg of OZEMPIC tablets.' 0.007 (0.7%) is the midpoint of the labeled 0.4-1% RYBELSUS range; the label publishes a RANGE, and the newer OZEMPIC-tablet formulation is higher (1-2%)."
+        },
+        {
+          "field": "modelType",
+          "value": "longActing",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+          "note": "Judgement call flagged for the maintainer: oral semaglutide is absorbed FAST (tmax ~1 h) and dosed DAILY, so it is not a depot in the release-limited sense, but it is eliminated slowly (~1 week). 'longActing' is the closest of the four allowed values; 'depot' would wrongly imply slow absorption."
+        }
+      ]
     },
     {
       "id": "semax",
@@ -430,7 +658,22 @@
       "link": "https://www.world-of-peptides.com/sermorelin-everything-you-need-to-know/#dosage",
       "sideEffects": "",
       "formFactor": "Injectable",
-      "halfLifeHours": 0.1
+      "halfLifeHours": 0.072,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 0.072,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7962295/",
+          "note": "HUMAN. Soule S, King JA, Millar RP. J Clin Endocrinol Metab 1994;79(4):1208-11: in 10 normal men given constant IV infusion, 'The disappearance half-time of the D-Ala2 analog was 6.7 +/- 0.5, whereas that of GHRH-(1-29)-NH2 was 4.3 +/- 1.4 min'. Sermorelin IS GHRH-(1-29)-NH2, so 4.3 min = 0.072 h. Corroborated by Front Endocrinol 2026;17:1822475 (https://pubmed.ncbi.nlm.nih.gov/42395176/), which lists sermorelin 't1/2 (as disappearance half-time) ~4.3 +/- 1.4 min' as human data. The dataset's current 6-minute value could not be sourced."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7962295/",
+          "note": "Half-life of minutes."
+        }
+      ]
     },
     {
       "id": "snap-8",
@@ -464,7 +707,23 @@
       "notes": "• AKA Elampretide • Good to follow with MOTS-C after SS-31",
       "link": "https://www.genemedics.com/elampretide-ss-31",
       "sideEffects": "",
-      "formFactor": "Injectable"
+      "formFactor": "Injectable",
+      "tMaxHours": 0.75,
+      "bioavailability": 0.92,
+      "sources": [
+        {
+          "field": "bioavailability",
+          "value": 0.92,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75",
+          "note": "HUMAN, FDA label. FORZINITY (elamipretide, = SS-31), Stealth BioTherapeutics, section 12.3: 'The absolute bioavailability following subcutaneous administration is approximately 92%.' Route matches the entry's Injectable/SC form factor."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 0.75,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75",
+          "note": "HUMAN, FDA label. FORZINITY section 12.3, verbatim: 'Maximum elamipretide concentrations were reached between 0.5 to 1 hour after subcutaneous administration.' 0.75 h is the midpoint of that labeled range; the label gives a range, not a point estimate."
+        }
+      ]
     },
     {
       "id": "tb-500",
@@ -481,8 +740,7 @@
       "notes": "•  Frag 17-23 • TB-500 is the active region of Thymosin Beta-4, but some call TB-500 Thymosin Beta-4 as well",
       "link": "https://www.world-of-peptides.com/tb500-peptide-protocol/",
       "sideEffects": "",
-      "formFactor": "Injectable",
-      "halfLifeHours": 36
+      "formFactor": "Injectable"
     },
     {
       "id": "tesamorelin",
@@ -503,7 +761,36 @@
       "link": "https://www.genemedics.com/tesamorelin",
       "sideEffects": "• ISR • Difficulty breathing • Dizziness • Elevations in blood sugar levels • Fast heartbeat • Hives • Joint pain • Night sweats • Numbness • Rash • Vomiting",
       "formFactor": "Injectable",
-      "halfLifeHours": 0.5
+      "halfLifeHours": 0.13,
+      "tMaxHours": 0.15,
+      "bioavailability": 0.04,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 0.13,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+          "note": "HUMAN, FDA label. EGRIFTA SV section 12.3: 'Mean elimination half-life (t1/2) of tesamorelin was 8 minutes in healthy subjects after single dose subcutaneous administration of the 1.4 mg of EGRIFTA SV.' 8 min = 0.13 h. CONFLICT: the older EGRIFTA formulation and the 2026 review Front Endocrinol 2026;17:1822475 report t1/2 ~26-38 min, which is what the dataset's current 30-minute value reflects. Both are label-derived; 8 min is the current label."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 0.15,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+          "note": "HUMAN, FDA label. EGRIFTA SV / EGRIFTA WR section 12.3: 'The median peak plasma tesamorelin concentration (Tmax) was 0.15 h in both populations' (healthy subjects and HIV-infected patients)."
+        },
+        {
+          "field": "bioavailability",
+          "value": 0.04,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+          "note": "HUMAN, FDA label, SUBCUTANEOUS route (matches form factor). EGRIFTA SV section 12.3 verbatim: 'The absolute bioavailability of tesamorelin after subcutaneous administration of a 2 mg dose of EGRIFTA was determined to be less than 4% in healthy adult subjects.' 0.04 is the label's UPPER BOUND ('less than 4%'), not a point estimate."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+          "note": "Half-life of minutes on any of the published estimates (8 min or 26-38 min)."
+        }
+      ]
     },
     {
       "id": "tesofensine",
@@ -521,7 +808,37 @@
       "notes": "• Some use with Tirzepatide/Semaglutide/Retatrutide or during the breaks, while on maintenance • Doesn’t seem to have any withdrawal effects",
       "link": "https://www.genemedics.com/tesofensine",
       "sideEffects": "• Constipation • Diarrhea • Dry mouth • Headache • Changes in blood pressure (increase blood pressure) • Increased heart rate • Insomnia • Nausea",
-      "formFactor": "Oral"
+      "formFactor": "Oral",
+      "halfLifeHours": 234,
+      "tMaxHours": 7,
+      "bioavailability": 0.9,
+      "modelType": "longActing",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 234,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2000606/",
+          "note": "HUMAN. Population PK modelling of NS2330 (tesofensine) and its metabolite, Br J Clin Pharmacol: 'long half-lives of 234 h (NS2330) and 374 h (M1)'; the paper also describes 'markedly long apparent half-lives in humans of ~200 h'. 234 h (~9.75 days) is the modelled parent-compound value. Note the active metabolite M1 is even longer (374 h), so a single-compartment curve will understate the tail."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 7,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2000606/",
+          "note": "HUMAN, ORAL route (matches form factor). Verbatim: 'The maximum plasma concentration was reached after 6-8 h.' 7 h is the midpoint of the published range."
+        },
+        {
+          "field": "bioavailability",
+          "value": 0.9,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2000606/",
+          "note": "HUMAN, ORAL route (matches form factor). Verbatim: 'The absolute bioavailability of NS2330 was estimated to be >90%' (comparison of separate IV and oral studies). 0.9 is the published LOWER BOUND."
+        },
+        {
+          "field": "modelType",
+          "value": "longActing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2000606/",
+          "note": "Judgement call flagged for the maintainer: tesofensine is dosed orally once daily and is rapidly absorbed (tmax 6-8 h), so it is not a depot, but its ~9.75-day half-life sits just above the stated 1-7 day 'longActing' band and it accumulates for weeks before steady state. 'longActing' is the closest of the four allowed values."
+        }
+      ]
     },
     {
       "id": "thymalin-thimogen",
@@ -555,7 +872,29 @@
       "link": "https://www.genemedics.com/thymosin-alpha-1",
       "sideEffects": "• Fatigue • Fever • Low white blood cells • Muscle aches • Nausea • Vomiting",
       "formFactor": "Injectable",
-      "halfLifeHours": 2
+      "halfLifeHours": 2,
+      "tMaxHours": 2,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11381492/",
+          "note": "HUMAN. Ancell CD, Phipps J, Young L. 'Thymosin alpha-1.' Am J Health Syst Pharm 2001;58(10):879-85 (peer-reviewed drug monograph): 'TA1 is rapidly absorbed, achieving peak serum concentrations within two hours. Blood levels return to baseline within 24 hours, and the serum half-life is approximately 2 hours.' Confirms the value already in the dataset."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11381492/",
+          "note": "HUMAN, subcutaneous (the route used for thymalfasin/ZADAXIN, matching the entry's Injectable form factor): 'achieving peak serum concentrations within two hours'. This is an upper bound ('within two hours'), not a measured median."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11381492/",
+          "note": "Serum half-life ~2 h; blood levels back to baseline within 24 h."
+        }
+      ]
     },
     {
       "id": "thymosin-beta-4",
@@ -572,7 +911,77 @@
       "halfLife": "",
       "notes": "• TB-500 is the active region of Thymosin Beta-4 • Currently being trialed as a potential therapy for HIV, AIDS, and Influenza • Often prescribed for acute injury, surgical repair and for senior athletes",
       "link": "https://www.genemedics.com/thymosin-beta-4",
-      "sideEffects": "• Dizziness • Headache • Lethargy • Nausea • Tiredness"
+      "sideEffects": "• Dizziness • Headache • Lethargy • Nausea • Tiredness",
+      "halfLifeHours": 2.08,
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 2.08,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8419156/",
+          "note": "HUMAN but INTRAVENOUS. First-in-human, randomized, double-blind, single- and multiple-dose phase I study of recombinant human thymosin beta-4 (NL005) in healthy Chinese volunteers: 'Among the cohorts, the Tmax was from 3 to 15 minutes, and t1/2 was from 0.5 to 2.08 hours' across 0.25-25 microg/kg IV. Half-life is DOSE-DEPENDENT: 0.5 h at the lowest dose, 2.084 h at the highest. 2.08 h is the top-of-range (highest dose) value; the maintainer may prefer to store the range. Corroborated by Ruff D et al., Ann N Y Acad Sci 2010;1194:223-9 (https://pubmed.ncbi.nlm.nih.gov/20536472/), an IV single/multiple-dose study in healthy volunteers reporting dose-proportional PK and 'an increasing half-life with increasing dose' (no numeric t1/2 in the abstract)."
+        },
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8419156/",
+          "note": "t1/2 0.5-2.08 h."
+        }
+      ]
+    },
+    {
+      "id": "tirzepatide",
+      "name": "Tirzepatide",
+      "tags": [
+        "Weight Loss",
+        "Energy"
+      ],
+      "benefits": "• Large, sustained weight reduction • Improved glycemic control in type 2 diabetes • Dual GIP + GLP-1 receptor agonism (adds the GIP arm on top of GLP-1) • Improves obstructive sleep apnea in adults with obesity • Enhances glucose-dependent insulin secretion and reduces glucagon • Increased satiety and reduced food intake",
+      "protocols": "Prescription dual GIP/GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, any time of day, with or without meals; rotate injection sites. Type 2 diabetes (MOUNJARO, FDA prescribing information): • Start at 2.5 mg once weekly for 4 weeks (initiation dose, not intended for glycemic control) • Increase to 5 mg once weekly • If additional glycemic control is needed, increase in 2.5 mg increments after at least 4 weeks on the current dose • Maximum 15 mg once weekly. Weight management / OSA (ZEPBOUND, FDA prescribing information): • Same 2.5 mg starting dose for 4 weeks, then 5 mg, then 2.5 mg increments after at least 4 weeks • Maintenance 5 mg, 10 mg or 15 mg once weekly (10 mg or 15 mg for obstructive sleep apnea) • Maximum 15 mg once weekly. The labels note that if a maintenance dose is not tolerated, a lower maintenance dose can be considered.",
+      "goodWith": "",
+      "notGoodWith": "Semaglutide, Semaglutide Oral, Retatrutide, other GLP-1 receptor agonists (do not combine)",
+      "halfLife": "Approximately 5 days (~120 hours)",
+      "notes": "• Dual GIP and GLP-1 receptor agonist; brand names MOUNJARO (type 2 diabetes) and ZEPBOUND (weight management, obstructive sleep apnea) • Contains a C20 fatty diacid that binds albumin and prolongs the half-life, which is what enables once-weekly dosing • Steady state is reached after about 4 weeks of once-weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • The gastric-emptying effect is strongest after the first 5 mg dose and diminishes with subsequent doses • A missed dose can be taken within 4 days (96 hours); after that, skip it • May reduce the effectiveness of oral contraceptives • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "sideEffects": "• Nausea • Diarrhea • Vomiting • Constipation • Abdominal pain • Dyspepsia • Decreased appetite • Injection site reactions • Fatigue • Hypersensitivity reactions • Eructation • Hair loss • Gastroesophageal reflux disease • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Acute kidney injury • Pulmonary aspiration during general anesthesia or deep sedation",
+      "formFactor": "Injectable",
+      "halfLifeHours": 120,
+      "tMaxHours": 24,
+      "bioavailability": 0.8,
+      "modelType": "depot",
+      "effectDurationDays": 7,
+      "sources": [
+        {
+          "field": "halfLifeHours",
+          "value": 120,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "note": "FDA label, MOUNJARO section 12.3: 'The apparent population mean clearance of tirzepatide is 0.061 L/h with an elimination half-life of approximately 5 days, enabling once-weekly dosing.' 5 days = 120 h. CONFLICT (minor): the ZEPBOUND label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b) states 'The elimination half-life is approximately 5-6 days in patients with overweight or obesity, and in patients with OSA and obesity' - i.e. 120-144 h in the weight-management population."
+        },
+        {
+          "field": "tMaxHours",
+          "value": 24,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+          "note": "FDA label, ZEPBOUND section 12.3, verbatim: 'Following subcutaneous administration, the median time (range) to maximum plasma concentration of tirzepatide is 24 hours (8 to 72 hours).' 24 h is the published MEDIAN (the MOUNJARO label gives only the 8-72 h range)."
+        },
+        {
+          "field": "bioavailability",
+          "value": 0.8,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "note": "FDA label, SUBCUTANEOUS route (matches form factor). MOUNJARO and ZEPBOUND section 12.3: 'The mean absolute bioavailability of tirzepatide following subcutaneous administration is 80%.'"
+        },
+        {
+          "field": "modelType",
+          "value": "depot",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "note": "Once-weekly subcutaneous dosing, ~5 day half-life, slow absorption (median tmax 24 h) - matches the 'depot' definition."
+        },
+        {
+          "field": "effectDurationDays",
+          "value": 7,
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+          "note": "Derived from the APPROVED DOSING INTERVAL, not from a single-dose duration-of-action study: the FDA label prescribes once-weekly administration and a single dose maintains effect across the 7-day interval. The label also permits taking a missed dose up to 4 days late."
+        }
+      ]
     }
   ]
 }
