@@ -36,7 +36,8 @@
       "halfLife": "4 minutes",
       "notes": "AOD stands for Anti Obesity Drug • Modified form of Frag 176-191 • May need a month for the effects to kick in • Use for minimum of 3 months • Some think it’s not cost-effective given how long it takes to see the results • Recently all major vendors started having issue with AOD turning into jelly. Some solce it by adding more BAC water, some throw away the via",
       "link": "https://www.genemedics.com/aod-9604",
-      "sideEffects": "• Diarrhea • Flatulence • Increased appetite • Mild or moderate headache • Nausea"
+      "sideEffects": "• Diarrhea • Flatulence • Increased appetite • Mild or moderate headache • Nausea",
+      "halfLifeHours": 0.067
     },
     {
       "id": "ara-290",
@@ -87,7 +88,8 @@
       "halfLife": "4 hours",
       "notes": "• BPC stand for Body Protective Compound",
       "link": "https://www.genemedics.com/bpc-157",
-      "sideEffects": "• Changes in blood pressure • Changes in heart rhythm • Dizziness • Fatigue • Hot flashes • Nausea and vomiting • Can affect mood if taking with SSRI • Discontinue if causes depression or anxiety symptoms"
+      "sideEffects": "• Changes in blood pressure • Changes in heart rhythm • Dizziness • Fatigue • Hot flashes • Nausea and vomiting • Can affect mood if taking with SSRI • Discontinue if causes depression or anxiety symptoms",
+      "halfLifeHours": 4
     },
     {
       "id": "cjc-1295",
@@ -140,7 +142,8 @@
       "halfLife": "7-8 minutes",
       "notes": "• Delta Sleep-Inducing Peptide",
       "link": "https://www.genemedics.com/delta-sleep-inducing-peptide",
-      "sideEffects": "• Headache • Hypotension (low blood pressure) • Vagal reactions (dizziness, ringing ears, and sweating) • Vomiting"
+      "sideEffects": "• Headache • Hypotension (low blood pressure) • Vagal reactions (dizziness, ringing ears, and sweating) • Vomiting",
+      "halfLifeHours": 0.125
     },
     {
       "id": "epitalon-epithalon-epithalamin",
@@ -206,7 +209,8 @@
       "halfLife": "30 minutes",
       "notes": "• Also known as Humanin - HN • There is a modified/concentrated version Humanin G (HN-G). The protocol is in mcg, but not clearly established • Can stack with MOTS-C after SS-31",
       "link": "https://gero.usc.edu/2020/06/24/protein-in-mitochondria-may-regulate-health-and-longevity/",
-      "sideEffects": ""
+      "sideEffects": "",
+      "halfLifeHours": 0.5
     },
     {
       "id": "ibutamoren-mk-677",
@@ -223,7 +227,8 @@
       "halfLife": "24 hours",
       "notes": "• Can make you extremely hungry, so better to eat protein",
       "link": "https://www.genemedics.com/mk-677",
-      "sideEffects": "• Increased appetite • Headaches • Increased blood sugar levels • Increased insulin levels • Increased levels of the stress hormone cortisol • Sleepiness • Mild lower extremity edema • Muscle pain"
+      "sideEffects": "• Increased appetite • Headaches • Increased blood sugar levels • Increased insulin levels • Increased levels of the stress hormone cortisol • Sleepiness • Mild lower extremity edema • Muscle pain",
+      "halfLifeHours": 24
     },
     {
       "id": "ipamorelin",
@@ -242,7 +247,8 @@
       "halfLife": "2 hours",
       "notes": "• Human growth hormone releasing peptide (GHRP) • GHRP should be paired with CHRH (e.g., Tesamorelin or CJC-1295), as it increases the GHRP effect and you can use a lower dose",
       "link": "https://www.genemedics.com/ipamorelin",
-      "sideEffects": "• Facial flushing • Feeling warm • Tachycardia (rare, usually short-lived 5 minutes) • ISR • Headaches • Muscle pain • Water retention"
+      "sideEffects": "• Facial flushing • Feeling warm • Tachycardia (rare, usually short-lived 5 minutes) • ISR • Headaches • Muscle pain • Water retention",
+      "halfLifeHours": 2
     },
     {
       "id": "kpv",
@@ -408,7 +414,8 @@
       "halfLife": "6 minutes",
       "notes": "• Also known as GRF 1-29 (“Old” CJC-1295)",
       "link": "https://www.world-of-peptides.com/sermorelin-everything-you-need-to-know/#dosage",
-      "sideEffects": ""
+      "sideEffects": "",
+      "halfLifeHours": 0.1
     },
     {
       "id": "snap-8",
@@ -457,7 +464,8 @@
       "halfLife": "1-2 days",
       "notes": "•  Frag 17-23 • TB-500 is the active region of Thymosin Beta-4, but some call TB-500 Thymosin Beta-4 as well",
       "link": "https://www.world-of-peptides.com/tb500-peptide-protocol/",
-      "sideEffects": ""
+      "sideEffects": "",
+      "halfLifeHours": 36
     },
     {
       "id": "tesamorelin",
@@ -476,7 +484,8 @@
       "halfLife": "30 minutes",
       "notes": "• Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • Brand name - EGRIFTA • Developed to treat HIV lipodystrophy",
       "link": "https://www.genemedics.com/tesamorelin",
-      "sideEffects": "• ISR • Difficulty breathing • Dizziness • Elevations in blood sugar levels • Fast heartbeat • Hives • Joint pain • Night sweats • Numbness • Rash • Vomiting"
+      "sideEffects": "• ISR • Difficulty breathing • Dizziness • Elevations in blood sugar levels • Fast heartbeat • Hives • Joint pain • Night sweats • Numbness • Rash • Vomiting",
+      "halfLifeHours": 0.5
     },
     {
       "id": "tesofensine",
@@ -524,7 +533,8 @@
       "halfLife": "2 hours",
       "notes": "• FDA approved • Some physicians are using thymosin for chronic fatigue, Lyme disease, autoimmune function",
       "link": "https://www.genemedics.com/thymosin-alpha-1",
-      "sideEffects": "• Fatigue • Fever • Low white blood cells • Muscle aches • Nausea • Vomiting"
+      "sideEffects": "• Fatigue • Fever • Low white blood cells • Muscle aches • Nausea • Vomiting",
+      "halfLifeHours": 2
     },
     {
       "id": "thymosin-beta-4",

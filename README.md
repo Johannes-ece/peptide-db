@@ -25,11 +25,22 @@ Everything lives in [`peptides.json`](peptides.json):
       "halfLife": "...",     // free text
       "notes": "...",
       "link": "https://...", // primary source / further reading
-      "sideEffects": "..."
+      "sideEffects": "...",
+
+      // optional, structured fields consumed by apps when present:
+      "formFactor": "Injectable",   // Injectable | Oral | Nasal
+      "halfLifeHours": 4,           // numeric convenience form of halfLife
+                                    // (midpoint for simple ranges)
+      "tMaxHours": 36,              // time to peak concentration
+      "bioavailability": 1.0,       // 0..1
+      "modelType": "longActing",    // legacy | rapidClearance | longActing | depot
+      "effectDurationDays": 7
     }
   ]
 }
 ```
+
+Optional fields may be absent; consumers must fall back gracefully. They are additive within schema v1.
 
 Consume it raw:
 
