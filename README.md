@@ -1,6 +1,18 @@
 # peptide-db
 
-An open, community-maintained dataset of peptides: tags, reported benefits, common protocol notes, compatibility hints, half-life, and source links.
+> ## ⚠️ Read this first
+>
+> **This is not medical advice, and nothing here is a recommendation to use any substance.**
+>
+> This is an **open, community-edited** dataset. Anyone can propose changes. It is **not curated, verified, or endorsed by any medical professional**, and its accuracy, completeness, and currency are **guaranteed by no one** — not the maintainers, not the contributors, and not any app that displays it. A merged pull request is not an endorsement of its content.
+>
+> - **Dosing schedules** in this dataset describe what sources *report*. They are not instructions, and they are not prescriptions.
+> - **Pharmacokinetic values** (half-life, tMax, bioavailability) may be wrong, provisional, derived from animal data, or missing entirely. Many peptides here have **no published human data at all**. Any app drawing a concentration curve from these numbers is drawing an estimate, not a fact.
+> - Peptides referenced here may be **unapproved, investigational, or regulated substances** in your jurisdiction, and some are banned in competitive sport.
+>
+> Always consult a licensed healthcare provider before making any health decision. **Use entirely at your own risk.**
+
+An open, community-maintained dataset of peptides: tags, reported benefits, commonly reported protocols, compatibility notes, pharmacokinetics, and source links.
 
 This dataset powers the "Peptide Database" browser in the [Peptide Log](https://apps.apple.com/app/id6744315346) iOS app, and anyone is welcome to use it or contribute to it.
 
@@ -81,7 +93,7 @@ Maintainers review PRs for formatting and obvious vandalism only. A merged PR is
 
 ## Disclaimer
 
-This is an informational, community-edited list. It is **not medical advice**, it is **not curated or verified by any medical professional**, and its accuracy, completeness, and currency are **not guaranteed by anyone**, including the maintainers and any app that displays it. Peptides referenced here may be unapproved, investigational, or regulated substances in your jurisdiction. Always consult a licensed healthcare provider. **Use at your own risk.**
+See the notice at the top of this file. In short: community-edited, unverified, not medical advice, no warranty of any kind, use entirely at your own risk.
 
 ## License
 
