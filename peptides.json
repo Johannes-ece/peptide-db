@@ -20,7 +20,8 @@
       "halfLife": "",
       "notes": "",
       "link": "https://www.genemedics.com/5-amino-1mq",
-      "sideEffects": "• Difficulty sleeping • Difficulty participating in exercise"
+      "sideEffects": "• Difficulty sleeping • Difficulty participating in exercise",
+      "formFactor": "Oral"
     },
     {
       "id": "aod-9604",
@@ -37,6 +38,7 @@
       "notes": "AOD stands for Anti Obesity Drug • Modified form of Frag 176-191 • May need a month for the effects to kick in • Use for minimum of 3 months • Some think it’s not cost-effective given how long it takes to see the results • Recently all major vendors started having issue with AOD turning into jelly. Some solce it by adding more BAC water, some throw away the via",
       "link": "https://www.genemedics.com/aod-9604",
       "sideEffects": "• Diarrhea • Flatulence • Increased appetite • Mild or moderate headache • Nausea",
+      "formFactor": "Injectable",
       "halfLifeHours": 0.067
     },
     {
@@ -54,7 +56,8 @@
       "halfLife": "",
       "notes": "• Soluble in alkaline solutions. May appear cloudy when it’s mixed with BAC water",
       "link": "https://www.genemedics.com/ara-290",
-      "sideEffects": "• Elevated blood pressure • Fast heart rate • Liver enzyme elevation • Nausea/vomiting"
+      "sideEffects": "• Elevated blood pressure • Fast heart rate • Liver enzyme elevation • Nausea/vomiting",
+      "formFactor": "Injectable"
     },
     {
       "id": "argireline",
@@ -111,7 +114,8 @@
       "halfLife": "• CJC-1295 no DAC: 30 minutes • CJC-1295 DAC: 6-8 days",
       "notes": "• Also known as MOD GRF (1-29) • Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • CJC-1295 no DAC has shorter half-life, so more frequent injections are needed • CJC-1295 DAC has longer half-life, so fewer injections are needed",
       "link": "https://www.genemedics.com/cjc-1295",
-      "sideEffects": "• Water retention • Tingling • Numbness and decreased insulin  • Tiredness, feeling of lethargy • Head rush or euphoria • Itching"
+      "sideEffects": "• Water retention • Tingling • Numbness and decreased insulin  • Tiredness, feeling of lethargy • Head rush or euphoria • Itching",
+      "formFactor": "Injectable"
     },
     {
       "id": "dihexa",
@@ -143,6 +147,7 @@
       "notes": "• Delta Sleep-Inducing Peptide",
       "link": "https://www.genemedics.com/delta-sleep-inducing-peptide",
       "sideEffects": "• Headache • Hypotension (low blood pressure) • Vagal reactions (dizziness, ringing ears, and sweating) • Vomiting",
+      "formFactor": "Injectable",
       "halfLifeHours": 0.125
     },
     {
@@ -158,7 +163,8 @@
       "halfLife": "",
       "notes": "• There exists a mistranslation between Epithalon and Epithalamin • Epithalamin is an extract of Epitalon and is less concentrated, so need to take 100 mcg of Epithalon instead of 10 mg of Epithalamin • Similar translation issue exists for Thymogen and Thymalin • Long-term results, but they may start showing up after the course is already done",
       "link": "https://www.genemedics.com/epithalon",
-      "sideEffects": "• Diarrhea • Difficulty sleeping • Fatigue • Flu-like symptoms • Headache • Irregular heartbeat • Joint pain • Nausea"
+      "sideEffects": "• Diarrhea • Difficulty sleeping • Fatigue • Flu-like symptoms • Headache • Irregular heartbeat • Joint pain • Nausea",
+      "formFactor": "Injectable"
     },
     {
       "id": "frag-176-191",
@@ -175,7 +181,8 @@
       "halfLife": "Unknown in human use",
       "notes": "LINK Real Frag is always cloudy • HGH Fragment 176-191 peptide is a modified form of amino acids 176-191 of the human Growth  • Hormone (GH) Polypeptide • Modified version of Frag 176-191 is AOD-9604",
       "link": "https://www.world-of-peptides.com/hgh-fragment-176-191/",
-      "sideEffects": "• ISR • Sleepiness or lethargic feeling"
+      "sideEffects": "• ISR • Sleepiness or lethargic feeling",
+      "formFactor": "Injectable"
     },
     {
       "id": "ghk-cu",
@@ -210,6 +217,7 @@
       "notes": "• Also known as Humanin - HN • There is a modified/concentrated version Humanin G (HN-G). The protocol is in mcg, but not clearly established • Can stack with MOTS-C after SS-31",
       "link": "https://gero.usc.edu/2020/06/24/protein-in-mitochondria-may-regulate-health-and-longevity/",
       "sideEffects": "",
+      "formFactor": "Injectable",
       "halfLifeHours": 0.5
     },
     {
@@ -228,6 +236,7 @@
       "notes": "• Can make you extremely hungry, so better to eat protein",
       "link": "https://www.genemedics.com/mk-677",
       "sideEffects": "• Increased appetite • Headaches • Increased blood sugar levels • Increased insulin levels • Increased levels of the stress hormone cortisol • Sleepiness • Mild lower extremity edema • Muscle pain",
+      "formFactor": "Oral",
       "halfLifeHours": 24
     },
     {
@@ -248,6 +257,7 @@
       "notes": "• Human growth hormone releasing peptide (GHRP) • GHRP should be paired with CHRH (e.g., Tesamorelin or CJC-1295), as it increases the GHRP effect and you can use a lower dose",
       "link": "https://www.genemedics.com/ipamorelin",
       "sideEffects": "• Facial flushing • Feeling warm • Tachycardia (rare, usually short-lived 5 minutes) • ISR • Headaches • Muscle pain • Water retention",
+      "formFactor": "Injectable",
       "halfLifeHours": 2
     },
     {
@@ -312,7 +322,8 @@
       "halfLife": "",
       "notes": "",
       "link": "https://www.genemedics.com/melanotan-1",
-      "sideEffects": "• Facial flushing • Gastrointestinal upset • Increased moles and freckles • Loss of appetite • Nausea • Tiredness • Unwanted tanning • Vomiting"
+      "sideEffects": "• Facial flushing • Gastrointestinal upset • Increased moles and freckles • Loss of appetite • Nausea • Tiredness • Unwanted tanning • Vomiting",
+      "formFactor": "Injectable"
     },
     {
       "id": "mots-c",
@@ -330,7 +341,8 @@
       "halfLife": "",
       "notes": "• Cycle after SS-31",
       "link": "https://www.genemedics.com/mitochondrial-orf-of-the-twelve-s-c-mots-c",
-      "sideEffects": "• Fluid retention • High blood sugar • Stomach upset"
+      "sideEffects": "• Fluid retention • High blood sugar • Stomach upset",
+      "formFactor": "Injectable"
     },
     {
       "id": "nad",
@@ -349,7 +361,8 @@
       "halfLife": "",
       "notes": "• Nicotinamide Adenine Dinucleotide",
       "link": "https://www.genemedics.com/nicotinamide-adenine-dinucleotide-nad",
-      "sideEffects": "• Decreased blood levels of phosphorus • Decreased insulin sensitivity • Decreased platelets • Dizziness • Frontal dull headaches • Nausea"
+      "sideEffects": "• Decreased blood levels of phosphorus • Decreased insulin sensitivity • Decreased platelets • Dizziness • Frontal dull headaches • Nausea",
+      "formFactor": "Injectable"
     },
     {
       "id": "pe-22-28",
@@ -364,7 +377,8 @@
       "halfLife": "",
       "notes": "",
       "link": "",
-      "sideEffects": ""
+      "sideEffects": "",
+      "formFactor": "Nasal"
     },
     {
       "id": "selank",
@@ -415,6 +429,7 @@
       "notes": "• Also known as GRF 1-29 (“Old” CJC-1295)",
       "link": "https://www.world-of-peptides.com/sermorelin-everything-you-need-to-know/#dosage",
       "sideEffects": "",
+      "formFactor": "Injectable",
       "halfLifeHours": 0.1
     },
     {
@@ -448,7 +463,8 @@
       "halfLife": "",
       "notes": "• AKA Elampretide • Good to follow with MOTS-C after SS-31",
       "link": "https://www.genemedics.com/elampretide-ss-31",
-      "sideEffects": ""
+      "sideEffects": "",
+      "formFactor": "Injectable"
     },
     {
       "id": "tb-500",
@@ -465,6 +481,7 @@
       "notes": "•  Frag 17-23 • TB-500 is the active region of Thymosin Beta-4, but some call TB-500 Thymosin Beta-4 as well",
       "link": "https://www.world-of-peptides.com/tb500-peptide-protocol/",
       "sideEffects": "",
+      "formFactor": "Injectable",
       "halfLifeHours": 36
     },
     {
@@ -485,6 +502,7 @@
       "notes": "• Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • Brand name - EGRIFTA • Developed to treat HIV lipodystrophy",
       "link": "https://www.genemedics.com/tesamorelin",
       "sideEffects": "• ISR • Difficulty breathing • Dizziness • Elevations in blood sugar levels • Fast heartbeat • Hives • Joint pain • Night sweats • Numbness • Rash • Vomiting",
+      "formFactor": "Injectable",
       "halfLifeHours": 0.5
     },
     {
@@ -502,7 +520,8 @@
       "halfLife": "",
       "notes": "• Some use with Tirzepatide/Semaglutide/Retatrutide or during the breaks, while on maintenance • Doesn’t seem to have any withdrawal effects",
       "link": "https://www.genemedics.com/tesofensine",
-      "sideEffects": "• Constipation • Diarrhea • Dry mouth • Headache • Changes in blood pressure (increase blood pressure) • Increased heart rate • Insomnia • Nausea"
+      "sideEffects": "• Constipation • Diarrhea • Dry mouth • Headache • Changes in blood pressure (increase blood pressure) • Increased heart rate • Insomnia • Nausea",
+      "formFactor": "Oral"
     },
     {
       "id": "thymalin-thimogen",
@@ -518,7 +537,8 @@
       "halfLife": "",
       "notes": "• Thymalin is an extract of Thymogen and is more concentrated, so need to take 100 mcg of Thymogen instead of 10 mg Thymalin • Similar to Epithalamin vs Epitalon",
       "link": "https://www.world-of-peptides.com/thymalin-everything-you-need-to-know/",
-      "sideEffects": ""
+      "sideEffects": "",
+      "formFactor": "Injectable"
     },
     {
       "id": "thymosin-alpha-1",
@@ -534,6 +554,7 @@
       "notes": "• FDA approved • Some physicians are using thymosin for chronic fatigue, Lyme disease, autoimmune function",
       "link": "https://www.genemedics.com/thymosin-alpha-1",
       "sideEffects": "• Fatigue • Fever • Low white blood cells • Muscle aches • Nausea • Vomiting",
+      "formFactor": "Injectable",
       "halfLifeHours": 2
     },
     {
