@@ -109,8 +109,8 @@
       ]
     },
     {
-      "id": "cjc-1295",
-      "name": "CJC-1295",
+      "id": "cjc-1295-dac",
+      "name": "CJC-1295 (DAC)",
       "tags": [
         "Muscles",
         "Bones",
@@ -122,14 +122,14 @@
         "Sleep"
       ],
       "benefits": "• Increases muscle mass and strength • Improves bone density • Increases lean mass • Increases overall energy and well-being • Used for burns or significant soft-tissue injury, post surgery • Improves sleep quality • Improves cognitive function",
-      "protocols": "Treatment length: 30 days Wait 2-3 hours after eating, and don’t eat for another 30 minutes after injection  CJC-1295 DAC SQ: • 100 mcg twice a week (Dr. Seeds)  CJC-1295 no DAC SQ: • 200 mcg nightly (5 nights on, 2 nights off) (Tailor Made Compounding Catalog)  CJC-1295 no DAC is often stacked with Ipamorelin: SQ: • 200mcg/200mcg nightly (5 nights on, 2 nights off) (Tailor Made Compounding Catalog) Dr. Seeds claims that 100mcg/100mcg is more cost-effective and higher dose is only marginally better.",
       "goodWith": "Ibutamoren (MK-677), Ipamorelin",
       "notGoodWith": "Sermorelin, Tesamorelin",
-      "halfLife": "• CJC-1295 no DAC: 30 minutes • CJC-1295 DAC: 6-8 days",
-      "notes": "• Also known as MOD GRF (1-29) • Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • CJC-1295 no DAC has shorter half-life, so more frequent injections are needed • CJC-1295 DAC has longer half-life, so fewer injections are needed",
       "link": "https://www.genemedics.com/cjc-1295",
       "sideEffects": "• Water retention • Tingling • Numbness and decreased insulin  • Tiredness, feeling of lethargy • Head rush or euphoria • Itching",
       "formFactor": "Injectable",
+      "protocols": "Treatment length: 30 days. Wait 2-3 hours after eating, and don't eat for another 30 minutes after injection.\n\nSQ:\n• 100 mcg twice a week (Dr. Seeds)",
+      "halfLife": "6-8 days",
+      "notes": "• Growth hormone-releasing hormone (GHRH) analog carrying a Drug Affinity Complex (DAC), which binds it to albumin and greatly extends its half-life.\n• The long half-life means infrequent injections and a sustained GH elevation rather than a pulse.\n• GHRH is often paired with a GHRP, which increases the GHRP effect and allows a lower dose.\n• Distinct from CJC-1295 without DAC (MOD GRF 1-29), which is a different, short-acting compound.",
       "halfLifeHours": 192,
       "modelType": "depot",
       "effectDurationDays": 6,
@@ -151,6 +151,38 @@
           "value": "depot",
           "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
           "note": "Albumin-bound DAC form, half-life ~6-8 days, dosed weekly/biweekly in the Teichman trials."
+        }
+      ]
+    },
+    {
+      "id": "cjc-1295-no-dac",
+      "name": "CJC-1295 (no DAC) / MOD GRF (1-29)",
+      "tags": [
+        "Muscles",
+        "Bones",
+        "Cognitive function",
+        "Energy",
+        "Healing",
+        "Immune system",
+        "Longevity",
+        "Sleep"
+      ],
+      "benefits": "• Increases muscle mass and strength • Improves bone density • Increases lean mass • Increases overall energy and well-being • Used for burns or significant soft-tissue injury, post surgery • Improves sleep quality • Improves cognitive function",
+      "goodWith": "Ibutamoren (MK-677), Ipamorelin",
+      "notGoodWith": "Sermorelin, Tesamorelin",
+      "link": "https://www.genemedics.com/cjc-1295",
+      "sideEffects": "• Water retention • Tingling • Numbness and decreased insulin  • Tiredness, feeling of lethargy • Head rush or euphoria • Itching",
+      "formFactor": "Injectable",
+      "protocols": "Treatment length: 30 days. Wait 2-3 hours after eating, and don't eat for another 30 minutes after injection.\n\nSQ:\n• 200 mcg nightly, 5 nights on, 2 nights off (Tailor Made Compounding Catalog)\n\nOften stacked with Ipamorelin:\n• 200 mcg / 200 mcg nightly, 5 nights on, 2 nights off (Tailor Made Compounding Catalog). Dr. Seeds claims 100 mcg / 100 mcg is more cost-effective and that the higher dose is only marginally better.",
+      "halfLife": "Not established in humans (no primary study published)",
+      "notes": "• Also known as MOD GRF (1-29). A tetrasubstituted GHRH(1-29) analog, modified to resist DPP-IV degradation.\n• NO PRIMARY PHARMACOKINETIC STUDY has been published for this variant. A half-life of ~30 minutes is widely quoted, but that figure traces only to vendor and community sources, so it is deliberately not recorded as data here. Concentration curves are disabled for this peptide rather than drawn from an unverifiable number.\n• Short-acting: reported to produce a GH pulse and return toward baseline, hence the frequent nightly dosing. Compare sermorelin, the unmodified GHRH(1-29), whose published human half-life is ~4.3 minutes.\n• GHRH is often paired with a GHRP, which increases the GHRP effect and allows a lower dose.\n• Distinct from CJC-1295 with DAC, which is albumin-bound and lasts days.",
+      "modelType": "rapidClearance",
+      "sources": [
+        {
+          "field": "modelType",
+          "value": "rapidClearance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7962295/",
+          "note": "MECHANISTIC CLASSIFICATION, not a measured value. No PK study exists for MOD GRF (1-29). Classified as rapid-clearance because it is a GHRH(1-29) analog producing a pulsatile GH response; the parent peptide sermorelin has a published human half-life of 4.3 min (Soule 1994). halfLifeHours is intentionally omitted: the commonly cited ~30 min figure has no primary source."
         }
       ]
     },
