@@ -6,13 +6,13 @@
 >
 > This is an **open, community-edited** dataset. Anyone can propose changes. It is **not curated, verified, or endorsed by any medical professional**, and its accuracy, completeness, and currency are **guaranteed by no one** — not the maintainers, not the contributors, and not any app that displays it. A merged pull request is not an endorsement of its content.
 >
-> - **Dosing schedules** in this dataset describe what sources *report*. They are not instructions, and they are not prescriptions.
+> - This dataset contains **no dosing information**: no dose amounts, schedules, titrations or cycles.
 > - **Pharmacokinetic values** (half-life, tMax, bioavailability) may be wrong, provisional, derived from animal data, or missing entirely. Many peptides here have **no published human data at all**. Any app drawing a concentration curve from these numbers is drawing an estimate, not a fact.
 > - Peptides referenced here may be **unapproved, investigational, or regulated substances** in your jurisdiction, and some are banned in competitive sport.
 >
 > Always consult a licensed healthcare provider before making any health decision. **Use entirely at your own risk.**
 
-An open, community-maintained dataset of peptides: tags, reported benefits, commonly reported protocols, compatibility notes, pharmacokinetics, and source links.
+An open, community-maintained dataset of peptides: tags, reported benefits, compatibility notes, pharmacokinetics, and source links.
 
 This dataset powers the "Peptide Database" browser in the [Peptide Log](https://apps.apple.com/app/id6744315346) iOS app, and anyone is welcome to use it or contribute to it.
 
@@ -31,7 +31,7 @@ Everything lives in [`peptides.json`](peptides.json):
       "name": "BPC-157",
       "tags": ["Healing"],
       "benefits": "...",
-      "protocols": "...",
+      "protocols": "",       // kept for compatibility, always empty
       "goodWith": "...",
       "notGoodWith": "...",
       "halfLife": "...",     // free text
@@ -62,7 +62,7 @@ Optional fields may be absent; consumers must fall back gracefully. They are add
 
 ```jsonc
 "sources": [
-  { "field": "halfLifeHours", "value": 168, "url": "https://...", "note": "HUMAN, FDA label, Ozempic §12.3" }
+  { "field": "halfLifeHours", "value": 168, "url": "https://...", "note": "HUMAN, FDA label, semaglutide injection §12.3" }
 ]
 ```
 
@@ -87,7 +87,9 @@ Open a pull request that edits `peptides.json`:
 - Keep the `id` of existing entries unchanged; new entries get a lowercase-dash slug of the name.
 - Bump `updatedAt`.
 - Cite a source in `link` for new entries or substantive claims.
-- Plain, factual language. No marketing, no medical recommendations, no dosing advice presented as instruction.
+- Plain, factual language. No marketing and no medical recommendations.
+- No dosing content: no dose amounts, schedules, titrations, cycles or protocols. `protocols` stays an empty string.
+- Generic (non-proprietary) substance names only. No brand or trade names; cite labels by substance, for example "FDA label, tirzepatide (type 2 diabetes)".
 
 Maintainers review PRs for formatting and obvious vandalism only. A merged PR is not an endorsement of its content.
 
