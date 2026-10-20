@@ -36,7 +36,7 @@ Everything lives in [`peptides.json`](peptides.json):
       "notGoodWith": "...",
       "halfLife": "...",     // free text
       "notes": "...",
-      "link": "https://...", // primary source / further reading
+      "link": "https://...", // research source (journal, PubMed, regulator label), or ""
       "sideEffects": "...",
 
       // optional, structured fields consumed by apps when present:
@@ -87,6 +87,7 @@ Open a pull request that edits `peptides.json`:
 - Keep the `id` of existing entries unchanged; new entries get a lowercase-dash slug of the name.
 - Bump `updatedAt`.
 - Cite a source in `link` for new entries or substantive claims.
+- No vendor or shop links: `link` and `sources` point only to research sources (journals, PubMed, regulator labels such as FDA, EMA or DailyMed, ClinicalTrials.gov), never to a seller, clinic or shop page. Leave `link` as an empty string when there is no such source.
 - Plain, factual language. No marketing and no medical recommendations.
 - No dosing content: no dose amounts, schedules, titrations, cycles or protocols. `protocols` stays an empty string.
 - Generic (non-proprietary) substance names only. No brand or trade names; cite labels by substance, for example "FDA label, tirzepatide (type 2 diabetes)".
