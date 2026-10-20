@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-10-20",
   "license": "CC0-1.0",
   "source": "https://github.com/Johannes-ece/peptide-db",
   "disclaimer": "Community-maintained informational dataset. Not medical advice. No guarantee of accuracy or completeness. Use at your own risk.",
@@ -576,11 +576,11 @@
         "Energy"
       ],
       "benefits": "• Substantial, sustained weight reduction • Improved glycemic control in type 2 diabetes (HbA1c reduction) • Reduced major adverse cardiovascular events in adults with established cardiovascular disease and overweight/obesity • Slows gastric emptying and increases satiety • Reduces risk of sustained eGFR decline and end-stage kidney disease in type 2 diabetes with CKD • Reduced appetite and food cravings",
-      "protocols": "Semaglutide is a prescription GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, same day each week, any time of day, with or without meals. Type 2 diabetes (OZEMPIC, FDA prescribing information): • 0.25 mg once weekly for 4 weeks (initiation dose, not for glycemic control) • increase to 0.5 mg once weekly • after at least 4 weeks, may increase to 1 mg once weekly • after at least 4 weeks, may increase to a maximum of 2 mg once weekly. Weight management (WEGOVY, FDA prescribing information): • Weeks 1-4: 0.25 mg once weekly • Weeks 5-8: 0.5 mg • Weeks 9-12: 1 mg • Weeks 13-16: 1.7 mg • Week 17 onward: 2.4 mg (recommended maintenance); a 7.2 mg maximum maintenance dose is available for patients who tolerate 2.4 mg for at least 4 weeks and need additional weight reduction. The label notes that if a dose is not tolerated, escalation may be delayed by 4 weeks.",
+      "protocols": "Semaglutide is a prescription GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, same day each week, any time of day, with or without meals. Type 2 diabetes (FDA prescribing information): • 0.25 mg once weekly for 4 weeks (initiation dose, not for glycemic control) • increase to 0.5 mg once weekly • after at least 4 weeks, may increase to 1 mg once weekly • after at least 4 weeks, may increase to a maximum of 2 mg once weekly. Weight management (FDA prescribing information): • Weeks 1-4: 0.25 mg once weekly • Weeks 5-8: 0.5 mg • Weeks 9-12: 1 mg • Weeks 13-16: 1.7 mg • Week 17 onward: 2.4 mg (recommended maintenance); a 7.2 mg maximum maintenance dose is available for patients who tolerate 2.4 mg for at least 4 weeks and need additional weight reduction. The label notes that if a dose is not tolerated, escalation may be delayed by 4 weeks.",
       "goodWith": "",
       "notGoodWith": "Tirzepatide, Retatrutide, Semaglutide Oral, other GLP-1 receptor agonists (do not combine — labels advise against coadministration of two GLP-1 receptor agonists)",
       "halfLife": "Approximately 1 week (~168 hours)",
-      "notes": "• GLP-1 receptor agonist; brand names OZEMPIC (type 2 diabetes) and WEGOVY (weight management) • The long half-life comes from albumin binding, which lowers renal clearance and protects against DPP-4 degradation • Semaglutide stays in the circulation for about 5 weeks after the last dose, so effects and side effects clear slowly • Steady state is reached after 4-5 weeks of weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • If a dose is missed it can be taken within 5 days; after that, skip it • Delays gastric emptying, which can affect absorption of other oral medications • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "notes": "• GLP-1 receptor agonist, approved for type 2 diabetes and for chronic weight management • The long half-life comes from albumin binding, which lowers renal clearance and protects against DPP-4 degradation • Semaglutide stays in the circulation for about 5 weeks after the last dose, so effects and side effects clear slowly • Steady state is reached after 4-5 weeks of weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • If a dose is missed it can be taken within 5 days; after that, skip it • Delays gastric emptying, which can affect absorption of other oral medications • Prescription-only; this entry describes approved product labeling, not a recommendation",
       "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
       "sideEffects": "• Nausea • Vomiting • Diarrhea • Abdominal pain • Constipation • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Acute kidney injury (usually via dehydration from GI losses) • Diabetic retinopathy complications • Increased heart rate • Pulmonary aspiration during general anesthesia or deep sedation • Injection site reactions",
       "formFactor": "Injectable",
@@ -594,19 +594,19 @@
           "field": "halfLifeHours",
           "value": 168,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
-          "note": "FDA label, OZEMPIC (semaglutide) injection, section 12.3: 'With an elimination half-life of approximately 1 week, semaglutide will be present in the circulation for about 5 weeks after the last dose.' 1 week = 168 h."
+          "note": "FDA label, semaglutide injection (type 2 diabetes), section 12.3: 'With an elimination half-life of approximately 1 week, semaglutide will be present in the circulation for about 5 weeks after the last dose.' 1 week = 168 h."
         },
         {
           "field": "tMaxHours",
           "value": 48,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
-          "note": "FDA label, OZEMPIC section 12.3, verbatim: 'Maximum concentration of semaglutide is reached 1 to 3 days post dose.' Identical wording in the WEGOVY label. 48 h is the midpoint of the labeled 24-72 h range; the label publishes a RANGE, not a point estimate."
+          "note": "FDA label, semaglutide injection (type 2 diabetes), section 12.3, verbatim: 'Maximum concentration of semaglutide is reached 1 to 3 days post dose.' Identical wording in the weight-management label. 48 h is the midpoint of the labeled 24-72 h range; the label publishes a RANGE, not a point estimate."
         },
         {
           "field": "bioavailability",
           "value": 0.89,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
-          "note": "FDA label, SUBCUTANEOUS route (matches form factor). OZEMPIC section 12.3: 'Absolute bioavailability of semaglutide is 89%.' WEGOVY label: 'Absolute bioavailability of semaglutide is 89% following subcutaneous administration.'"
+          "note": "FDA label, SUBCUTANEOUS route (matches form factor). Type 2 diabetes label, section 12.3: 'Absolute bioavailability of semaglutide is 89%.' Weight-management label: 'Absolute bioavailability of semaglutide is 89% following subcutaneous administration.'"
         },
         {
           "field": "modelType",
@@ -630,11 +630,11 @@
         "Energy"
       ],
       "benefits": "• Improved glycemic control in type 2 diabetes (HbA1c reduction) • Weight reduction • Reduced appetite and increased satiety • Oral route — no injection required • Same GLP-1 receptor agonist molecule as injectable semaglutide",
-      "protocols": "Prescription oral GLP-1 receptor agonist (semaglutide co-formulated with the absorption enhancer SNAC). All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Administration (FDA prescribing information): take one tablet once daily on an empty stomach in the morning with no more than 4 ounces of water; swallow whole (do not split, crush or chew); wait at least 30 minutes before eating, drinking anything else, or taking other oral medications. Titration (RYBELSUS, FDA prescribing information): • Days 1-30: 3 mg once daily (initiation dose, not effective for glycemic control) • Days 31-60: 7 mg once daily • Day 61 onward: stay at 7 mg, or increase to 14 mg once daily if additional glycemic control is needed. A newer OZEMPIC tablet formulation uses 1.5 mg / 4 mg / 9 mg steps on the same 30-day schedule; the two formulations are NOT interchangeable milligram-for-milligram. WEGOVY tablets (weight management) titrate from 1.5 mg once daily every 30 days to a 25 mg once-daily maintenance dose.",
+      "protocols": "Prescription oral GLP-1 receptor agonist (semaglutide co-formulated with the absorption enhancer SNAC). All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Administration (FDA prescribing information): take one tablet once daily on an empty stomach in the morning with no more than 4 ounces of water; swallow whole (do not split, crush or chew); wait at least 30 minutes before eating, drinking anything else, or taking other oral medications. Titration (original tablet formulation, FDA prescribing information): • Days 1-30: 3 mg once daily (initiation dose, not effective for glycemic control) • Days 31-60: 7 mg once daily • Day 61 onward: stay at 7 mg, or increase to 14 mg once daily if additional glycemic control is needed. A newer tablet formulation uses 1.5 mg / 4 mg / 9 mg steps on the same 30-day schedule; the two formulations are NOT interchangeable milligram-for-milligram. Semaglutide tablets for weight management titrate from 1.5 mg once daily every 30 days to a 25 mg once-daily maintenance dose.",
       "goodWith": "",
       "notGoodWith": "Semaglutide (injectable), Tirzepatide, Retatrutide, other GLP-1 receptor agonists (do not combine)",
       "halfLife": "Approximately 1 week (~168 hours), same as injectable semaglutide",
-      "notes": "• Brand names RYBELSUS (type 2 diabetes), and WEGOVY tablets / OZEMPIC tablets • Absorption happens predominantly in the STOMACH and is highly sensitive to food, water volume and post-dose fasting time — this is why the empty-stomach, 30-minute-wait rule matters so much • Oral bioavailability is very low (roughly 0.4-1%), which is why the oral milligram doses look so different from the injectable ones • Despite once-daily dosing, the elimination half-life is still about a week, so the drug persists ~5 weeks after the last tablet and steady state takes 4-5 weeks • effectDurationDays is deliberately omitted: no single-dose duration-of-action figure is published for the oral form (it is dosed daily) • Boxed warning: risk of thyroid C-cell tumors • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "notes": "• Oral tablet formulations are approved for type 2 diabetes and for weight management • Absorption happens predominantly in the STOMACH and is highly sensitive to food, water volume and post-dose fasting time — this is why the empty-stomach, 30-minute-wait rule matters so much • Oral bioavailability is very low (roughly 0.4-1%), which is why the oral milligram doses look so different from the injectable ones • Despite once-daily dosing, the elimination half-life is still about a week, so the drug persists ~5 weeks after the last tablet and steady state takes 4-5 weeks • effectDurationDays is deliberately omitted: no single-dose duration-of-action figure is published for the oral form (it is dosed daily) • Boxed warning: risk of thyroid C-cell tumors • Prescription-only; this entry describes approved product labeling, not a recommendation",
       "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
       "sideEffects": "• Nausea • Abdominal pain • Diarrhea • Decreased appetite • Vomiting • Constipation • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Diabetic retinopathy complications • Acute kidney injury • Pulmonary aspiration during general anesthesia or deep sedation",
       "formFactor": "Oral",
@@ -647,19 +647,19 @@
           "field": "halfLifeHours",
           "value": 168,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
-          "note": "FDA label, RYBELSUS / OZEMPIC tablets, section 12.3: 'Semaglutide elimination half-life is approximately one week with an absolute clearance of approximately 0.04 L/hour in patients with type 2 diabetes. Semaglutide is present in the circulation for about five weeks after the last semaglutide tablet dose.' 1 week = 168 h. A published clinical-pharmacology analysis (Clin Pharmacokinet, https://pmc.ncbi.nlm.nih.gov/articles/PMC8505367/) reports the mean terminal half-life more precisely as 153-161 h."
+          "note": "FDA label, oral semaglutide tablets, section 12.3: 'Semaglutide elimination half-life is approximately one week with an absolute clearance of approximately 0.04 L/hour in patients with type 2 diabetes. Semaglutide is present in the circulation for about five weeks after the last semaglutide tablet dose.' 1 week = 168 h. A published clinical-pharmacology analysis (Clin Pharmacokinet, https://pmc.ncbi.nlm.nih.gov/articles/PMC8505367/) reports the mean terminal half-life more precisely as 153-161 h."
         },
         {
           "field": "tMaxHours",
           "value": 1,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
-          "note": "FDA label, ORAL route (matches form factor). RYBELSUS section 12.3, verbatim: 'Semaglutide maximum concentration was reached approximately 1-hour after oral administration of semaglutide tablets.'"
+          "note": "FDA label, ORAL route (matches form factor). Section 12.3, verbatim: 'Semaglutide maximum concentration was reached approximately 1-hour after oral administration of semaglutide tablets.'"
         },
         {
           "field": "bioavailability",
           "value": 0.007,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
-          "note": "FDA label, ORAL route (matches form factor). RYBELSUS section 12.3, verbatim: 'Semaglutide estimated absolute bioavailability was approximately: 0.4% to 1% after oral administration of 3 mg, 7 mg and 14 mg of RYBELSUS; 1% to 2% after oral administration of 1.5 mg, 4 mg and 9 mg of OZEMPIC tablets.' 0.007 (0.7%) is the midpoint of the labeled 0.4-1% RYBELSUS range; the label publishes a RANGE, and the newer OZEMPIC-tablet formulation is higher (1-2%)."
+          "note": "FDA label, ORAL route (matches form factor). Section 12.3, verbatim: 'Semaglutide estimated absolute bioavailability was approximately: 0.4% to 1% after oral administration of 3 mg, 7 mg and 14 mg of [the original tablet formulation]; 1% to 2% after oral administration of 1.5 mg, 4 mg and 9 mg of [the newer tablet formulation].' 0.007 (0.7%) is the midpoint of the labeled 0.4-1% range for the original formulation; the label publishes a RANGE, and the newer tablet formulation is higher (1-2%)."
         },
         {
           "field": "modelType",
@@ -760,13 +760,13 @@
           "field": "bioavailability",
           "value": 0.92,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75",
-          "note": "HUMAN, FDA label. FORZINITY (elamipretide, = SS-31), Stealth BioTherapeutics, section 12.3: 'The absolute bioavailability following subcutaneous administration is approximately 92%.' Route matches the entry's Injectable/SC form factor."
+          "note": "HUMAN, FDA label. elamipretide (= SS-31), section 12.3: 'The absolute bioavailability following subcutaneous administration is approximately 92%.' Route matches the entry's Injectable/SC form factor."
         },
         {
           "field": "tMaxHours",
           "value": 0.75,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75",
-          "note": "HUMAN, FDA label. FORZINITY section 12.3, verbatim: 'Maximum elamipretide concentrations were reached between 0.5 to 1 hour after subcutaneous administration.' 0.75 h is the midpoint of that labeled range; the label gives a range, not a point estimate."
+          "note": "HUMAN, FDA label. Elamipretide label, section 12.3, verbatim: 'Maximum elamipretide concentrations were reached between 0.5 to 1 hour after subcutaneous administration.' 0.75 h is the midpoint of that labeled range; the label gives a range, not a point estimate."
         }
       ]
     },
@@ -802,7 +802,7 @@
       "goodWith": "Ipamorelin",
       "notGoodWith": "CJC-1295",
       "halfLife": "30 minutes",
-      "notes": "• Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • Brand name - EGRIFTA • Developed to treat HIV lipodystrophy",
+      "notes": "• Human growth hormone-releasing hormone (GHRH). GHRH should be paired with CHRP, as it increases the GHRP effect and you can use a lower dose • Developed to treat HIV lipodystrophy",
       "link": "https://www.genemedics.com/tesamorelin",
       "sideEffects": "• ISR • Difficulty breathing • Dizziness • Elevations in blood sugar levels • Fast heartbeat • Hives • Joint pain • Night sweats • Numbness • Rash • Vomiting",
       "formFactor": "Injectable",
@@ -815,19 +815,19 @@
           "field": "halfLifeHours",
           "value": 0.13,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
-          "note": "HUMAN, FDA label. EGRIFTA SV section 12.3: 'Mean elimination half-life (t1/2) of tesamorelin was 8 minutes in healthy subjects after single dose subcutaneous administration of the 1.4 mg of EGRIFTA SV.' 8 min = 0.13 h. CONFLICT: the older EGRIFTA formulation and the 2026 review Front Endocrinol 2026;17:1822475 report t1/2 ~26-38 min, which is what the dataset's current 30-minute value reflects. Both are label-derived; 8 min is the current label."
+          "note": "HUMAN, FDA label. Section 12.3 (current formulation): 'Mean elimination half-life (t1/2) of tesamorelin was 8 minutes in healthy subjects after single dose subcutaneous administration of the 1.4 mg of [the current formulation].' 8 min = 0.13 h. CONFLICT: the older formulation and the 2026 review Front Endocrinol 2026;17:1822475 report t1/2 ~26-38 min, which is what the dataset's current 30-minute value reflects. Both are label-derived; 8 min is the current label."
         },
         {
           "field": "tMaxHours",
           "value": 0.15,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
-          "note": "HUMAN, FDA label. EGRIFTA SV / EGRIFTA WR section 12.3: 'The median peak plasma tesamorelin concentration (Tmax) was 0.15 h in both populations' (healthy subjects and HIV-infected patients)."
+          "note": "HUMAN, FDA label. Section 12.3 (current formulations): 'The median peak plasma tesamorelin concentration (Tmax) was 0.15 h in both populations' (healthy subjects and HIV-infected patients)."
         },
         {
           "field": "bioavailability",
           "value": 0.04,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
-          "note": "HUMAN, FDA label, SUBCUTANEOUS route (matches form factor). EGRIFTA SV section 12.3 verbatim: 'The absolute bioavailability of tesamorelin after subcutaneous administration of a 2 mg dose of EGRIFTA was determined to be less than 4% in healthy adult subjects.' 0.04 is the label's UPPER BOUND ('less than 4%'), not a point estimate."
+          "note": "HUMAN, FDA label, SUBCUTANEOUS route (matches form factor). Section 12.3 verbatim: 'The absolute bioavailability of tesamorelin after subcutaneous administration of a 2 mg dose of [tesamorelin] was determined to be less than 4% in healthy adult subjects.' 0.04 is the label's UPPER BOUND ('less than 4%'), not a point estimate."
         },
         {
           "field": "modelType",
@@ -931,7 +931,7 @@
           "field": "tMaxHours",
           "value": 2,
           "url": "https://pubmed.ncbi.nlm.nih.gov/11381492/",
-          "note": "HUMAN, subcutaneous (the route used for thymalfasin/ZADAXIN, matching the entry's Injectable form factor): 'achieving peak serum concentrations within two hours'. This is an upper bound ('within two hours'), not a measured median."
+          "note": "HUMAN, subcutaneous (the route used for thymalfasin, matching the entry's Injectable form factor): 'achieving peak serum concentrations within two hours'. This is an upper bound ('within two hours'), not a measured median."
         },
         {
           "field": "modelType",
@@ -982,11 +982,11 @@
         "Energy"
       ],
       "benefits": "• Large, sustained weight reduction • Improved glycemic control in type 2 diabetes • Dual GIP + GLP-1 receptor agonism (adds the GIP arm on top of GLP-1) • Improves obstructive sleep apnea in adults with obesity • Enhances glucose-dependent insulin secretion and reduces glucagon • Increased satiety and reduced food intake",
-      "protocols": "Prescription dual GIP/GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, any time of day, with or without meals; rotate injection sites. Type 2 diabetes (MOUNJARO, FDA prescribing information): • Start at 2.5 mg once weekly for 4 weeks (initiation dose, not intended for glycemic control) • Increase to 5 mg once weekly • If additional glycemic control is needed, increase in 2.5 mg increments after at least 4 weeks on the current dose • Maximum 15 mg once weekly. Weight management / OSA (ZEPBOUND, FDA prescribing information): • Same 2.5 mg starting dose for 4 weeks, then 5 mg, then 2.5 mg increments after at least 4 weeks • Maintenance 5 mg, 10 mg or 15 mg once weekly (10 mg or 15 mg for obstructive sleep apnea) • Maximum 15 mg once weekly. The labels note that if a maintenance dose is not tolerated, a lower maintenance dose can be considered.",
+      "protocols": "Prescription dual GIP/GLP-1 receptor agonist. All schedules below are the manufacturer's approved titration schedules, quoted for reference only. Once-weekly SQ, any time of day, with or without meals; rotate injection sites. Type 2 diabetes (FDA prescribing information): • Start at 2.5 mg once weekly for 4 weeks (initiation dose, not intended for glycemic control) • Increase to 5 mg once weekly • If additional glycemic control is needed, increase in 2.5 mg increments after at least 4 weeks on the current dose • Maximum 15 mg once weekly. Weight management / OSA (FDA prescribing information): • Same 2.5 mg starting dose for 4 weeks, then 5 mg, then 2.5 mg increments after at least 4 weeks • Maintenance 5 mg, 10 mg or 15 mg once weekly (10 mg or 15 mg for obstructive sleep apnea) • Maximum 15 mg once weekly. The labels note that if a maintenance dose is not tolerated, a lower maintenance dose can be considered.",
       "goodWith": "",
       "notGoodWith": "Semaglutide, Semaglutide Oral, Retatrutide, other GLP-1 receptor agonists (do not combine)",
       "halfLife": "Approximately 5 days (~120 hours)",
-      "notes": "• Dual GIP and GLP-1 receptor agonist; brand names MOUNJARO (type 2 diabetes) and ZEPBOUND (weight management, obstructive sleep apnea) • Contains a C20 fatty diacid that binds albumin and prolongs the half-life, which is what enables once-weekly dosing • Steady state is reached after about 4 weeks of once-weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • The gastric-emptying effect is strongest after the first 5 mg dose and diminishes with subsequent doses • A missed dose can be taken within 4 days (96 hours); after that, skip it • May reduce the effectiveness of oral contraceptives • Prescription-only; this entry describes approved product labeling, not a recommendation",
+      "notes": "• Dual GIP and GLP-1 receptor agonist, approved for type 2 diabetes, chronic weight management and obstructive sleep apnea in adults with obesity • Contains a C20 fatty diacid that binds albumin and prolongs the half-life, which is what enables once-weekly dosing • Steady state is reached after about 4 weeks of once-weekly dosing • Boxed warning: risk of thyroid C-cell tumors (contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2) • The gastric-emptying effect is strongest after the first 5 mg dose and diminishes with subsequent doses • A missed dose can be taken within 4 days (96 hours); after that, skip it • May reduce the effectiveness of oral contraceptives • Prescription-only; this entry describes approved product labeling, not a recommendation",
       "link": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
       "sideEffects": "• Nausea • Diarrhea • Vomiting • Constipation • Abdominal pain • Dyspepsia • Decreased appetite • Injection site reactions • Fatigue • Hypersensitivity reactions • Eructation • Hair loss • Gastroesophageal reflux disease • Risk of thyroid C-cell tumors (boxed warning) • Pancreatitis • Gallbladder disease • Hypoglycemia when combined with insulin or a sulfonylurea • Acute kidney injury • Pulmonary aspiration during general anesthesia or deep sedation",
       "formFactor": "Injectable",
@@ -1000,19 +1000,19 @@
           "field": "halfLifeHours",
           "value": 120,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
-          "note": "FDA label, MOUNJARO section 12.3: 'The apparent population mean clearance of tirzepatide is 0.061 L/h with an elimination half-life of approximately 5 days, enabling once-weekly dosing.' 5 days = 120 h. CONFLICT (minor): the ZEPBOUND label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b) states 'The elimination half-life is approximately 5-6 days in patients with overweight or obesity, and in patients with OSA and obesity' - i.e. 120-144 h in the weight-management population."
+          "note": "FDA label, tirzepatide (type 2 diabetes), section 12.3: 'The apparent population mean clearance of tirzepatide is 0.061 L/h with an elimination half-life of approximately 5 days, enabling once-weekly dosing.' 5 days = 120 h. CONFLICT (minor): the weight-management label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b) states 'The elimination half-life is approximately 5-6 days in patients with overweight or obesity, and in patients with OSA and obesity' - i.e. 120-144 h in the weight-management population."
         },
         {
           "field": "tMaxHours",
           "value": 24,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
-          "note": "FDA label, ZEPBOUND section 12.3, verbatim: 'Following subcutaneous administration, the median time (range) to maximum plasma concentration of tirzepatide is 24 hours (8 to 72 hours).' 24 h is the published MEDIAN (the MOUNJARO label gives only the 8-72 h range)."
+          "note": "FDA label, tirzepatide (weight management), section 12.3, verbatim: 'Following subcutaneous administration, the median time (range) to maximum plasma concentration of tirzepatide is 24 hours (8 to 72 hours).' 24 h is the published MEDIAN (the type 2 diabetes label gives only the 8-72 h range)."
         },
         {
           "field": "bioavailability",
           "value": 0.8,
           "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
-          "note": "FDA label, SUBCUTANEOUS route (matches form factor). MOUNJARO and ZEPBOUND section 12.3: 'The mean absolute bioavailability of tirzepatide following subcutaneous administration is 80%.'"
+          "note": "FDA label, SUBCUTANEOUS route (matches form factor). Both tirzepatide labels, section 12.3: 'The mean absolute bioavailability of tirzepatide following subcutaneous administration is 80%.'"
         },
         {
           "field": "modelType",
