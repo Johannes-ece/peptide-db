@@ -60,13 +60,13 @@
     },
     {
       "id": "argireline",
-      "name": "Argireline",
+      "name": "Acetyl Hexapeptide-8",
       "tags": [
         "Skin"
       ],
       "benefits": "• Skin anti-age benefits • Extends the effect of anti-wrinkle injections",
       "protocols": "",
-      "goodWith": "Snap-8",
+      "goodWith": "Acetyl Octapeptide-3",
       "notGoodWith": "",
       "halfLife": "",
       "notes": "",
@@ -290,7 +290,7 @@
       ],
       "benefits": "• Enhances skin elasticity • Reduces fine lines and wrinkles • Reverses thinning of aging skin • Prevents aging through its antioxidant effects  • Accelerates wound healing  • Improves lung health  • Fights hair loss  • Accelerates nerve regeneration  • Fights anxiety  • Combats cognitive dysfunction  • Fights Inflammation",
       "protocols": "SQ:  • 1-2 mg daily for 6 weeks, can be split in half for morning/day. Follow by at least 4 weeks off. Can repeat the cycle 3-4 times a year (Dr.Seeds)  Topical:  • 1-2 pumps daily for 30 days (5% concentration) (Tailor Made Compounding Catalog)",
-      "goodWith": "BPC-157, Snap-8",
+      "goodWith": "BPC-157, Acetyl Octapeptide-3",
       "notGoodWith": "",
       "halfLife": "",
       "notes": "",
@@ -414,13 +414,13 @@
     },
     {
       "id": "matrixyl",
-      "name": "Matrixyl",
+      "name": "Palmitoyl Pentapeptide-4",
       "tags": [
         "Skin"
       ],
       "benefits": "• Improves appearance of fine lines and wrinkles • Improves skin texture • Increases skin firmness",
       "protocols": "Topical: • Used in creams and serums with concentrations ranging from 2% to 8% (3% being optimal)",
-      "goodWith": "Palmitoyl Tetrapeptide 7, Snap-8",
+      "goodWith": "Palmitoyl Tetrapeptide-7, Acetyl Octapeptide-3",
       "notGoodWith": "",
       "halfLife": "",
       "notes": "",
@@ -722,17 +722,17 @@
     },
     {
       "id": "snap-8",
-      "name": "Snap-8",
+      "name": "Acetyl Octapeptide-3",
       "tags": [
         "Skin"
       ],
       "benefits": "• Reduce deep wrinkles and fine lines • Improve skin elasticity",
-      "protocols": "Topical: • Reconstitute 10 mg Snap-8 with 1 ml BAC water • Let it sit for 20+ minutes • Add to the 30 ml of rich serum or cream (see Notes column for examples) • Apply to the area of the skin where wrinkles are present, such as the forehead, around the eyes, and the mouth • Usually applied once or twice daily. Specific instructions vary depending on the product used",
-      "goodWith": "HA, Matrixyl, GHK-CU, Ceramides, Vitamin E, Vitamin B, Argireline",
+      "protocols": "Topical: • Reconstitute 10 mg acetyl octapeptide-3 with 1 ml BAC water • Let it sit for 20+ minutes • Add to the 30 ml of rich serum or cream (see Notes column for examples) • Apply to the area of the skin where wrinkles are present, such as the forehead, around the eyes, and the mouth • Usually applied once or twice daily. Specific instructions vary depending on the product used",
+      "goodWith": "HA, Palmitoyl Pentapeptide-4, GHK-CU, Ceramides, Vitamin E, Vitamin B, Acetyl Hexapeptide-8",
       "notGoodWith": "High PH, AHA, Vitamin C, Retinol, Vitamin A",
       "halfLife": "",
-      "notes": "Can add to:  • Ordinary Buffet • Ordinary Agirilene • Olay Regenerist Night Recovery Cream • ELF Holy Hydration • CeraVe Skin Renewing Night Cream • Cetaphil Deep Hydration • Neutrogena Hydroboost",
-      "link": "https://www.world-of-peptides.com/snap-8-everything-you-need-to-know/#recommended-dosage",
+      "notes": "",
+      "link": "https://www.world-of-peptides.com/snap-8-everything-you-need-to-know/",
       "sideEffects": ""
     },
     {
