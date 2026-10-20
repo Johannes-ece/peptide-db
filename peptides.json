@@ -24,6 +24,36 @@
       "formFactor": "Oral"
     },
     {
+      "id": "argireline",
+      "name": "Acetyl Hexapeptide-8",
+      "tags": [
+        "Skin"
+      ],
+      "benefits": "• Skin anti-age benefits • Extends the effect of anti-wrinkle injections",
+      "protocols": "",
+      "goodWith": "Acetyl Octapeptide-3",
+      "notGoodWith": "",
+      "halfLife": "",
+      "notes": "",
+      "link": "https://www.genemedics.com/argireline-leuphasyl",
+      "sideEffects": "• Dry, flaky skin • Redness • Stinging sensation"
+    },
+    {
+      "id": "snap-8",
+      "name": "Acetyl Octapeptide-3",
+      "tags": [
+        "Skin"
+      ],
+      "benefits": "• Reduce deep wrinkles and fine lines • Improve skin elasticity",
+      "protocols": "",
+      "goodWith": "HA, Palmitoyl Pentapeptide-4, GHK-CU, Ceramides, Vitamin E, Vitamin B, Acetyl Hexapeptide-8",
+      "notGoodWith": "High PH, AHA, Vitamin C, Retinol, Vitamin A",
+      "halfLife": "",
+      "notes": "",
+      "link": "https://www.world-of-peptides.com/snap-8-everything-you-need-to-know/",
+      "sideEffects": ""
+    },
+    {
       "id": "aod-9604",
       "name": "AOD-9604",
       "tags": [
@@ -57,21 +87,6 @@
       "link": "https://www.genemedics.com/ara-290",
       "sideEffects": "• Elevated blood pressure • Fast heart rate • Liver enzyme elevation • Nausea/vomiting",
       "formFactor": "Injectable"
-    },
-    {
-      "id": "argireline",
-      "name": "Acetyl Hexapeptide-8",
-      "tags": [
-        "Skin"
-      ],
-      "benefits": "• Skin anti-age benefits • Extends the effect of anti-wrinkle injections",
-      "protocols": "",
-      "goodWith": "Acetyl Octapeptide-3",
-      "notGoodWith": "",
-      "halfLife": "",
-      "notes": "",
-      "link": "https://www.genemedics.com/argireline-leuphasyl",
-      "sideEffects": "• Dry, flaky skin • Redness • Stinging sensation"
     },
     {
       "id": "bpc-157",
@@ -413,21 +428,6 @@
       "sideEffects": "• Increased inflammation • Induction of autoimmune disease • Depression • Damage to sperm surface membranes • Atopic dermatitis and psoriasis"
     },
     {
-      "id": "matrixyl",
-      "name": "Palmitoyl Pentapeptide-4",
-      "tags": [
-        "Skin"
-      ],
-      "benefits": "• Improves appearance of fine lines and wrinkles • Improves skin texture • Increases skin firmness",
-      "protocols": "",
-      "goodWith": "Palmitoyl Tetrapeptide-7, Acetyl Octapeptide-3",
-      "notGoodWith": "",
-      "halfLife": "",
-      "notes": "",
-      "link": "https://www.world-of-peptides.com/matrixyl-everything-you-need-to-know/",
-      "sideEffects": ""
-    },
-    {
       "id": "melanotan-1",
       "name": "Melanotan 1",
       "tags": [
@@ -482,6 +482,21 @@
       "link": "https://www.genemedics.com/nicotinamide-adenine-dinucleotide-nad",
       "sideEffects": "• Decreased blood levels of phosphorus • Decreased insulin sensitivity • Decreased platelets • Dizziness • Frontal dull headaches • Nausea",
       "formFactor": "Injectable"
+    },
+    {
+      "id": "matrixyl",
+      "name": "Palmitoyl Pentapeptide-4",
+      "tags": [
+        "Skin"
+      ],
+      "benefits": "• Improves appearance of fine lines and wrinkles • Improves skin texture • Increases skin firmness",
+      "protocols": "",
+      "goodWith": "Palmitoyl Tetrapeptide-7, Acetyl Octapeptide-3",
+      "notGoodWith": "",
+      "halfLife": "",
+      "notes": "",
+      "link": "https://www.world-of-peptides.com/matrixyl-everything-you-need-to-know/",
+      "sideEffects": ""
     },
     {
       "id": "pe-22-28",
@@ -719,21 +734,6 @@
           "note": "Half-life of minutes."
         }
       ]
-    },
-    {
-      "id": "snap-8",
-      "name": "Acetyl Octapeptide-3",
-      "tags": [
-        "Skin"
-      ],
-      "benefits": "• Reduce deep wrinkles and fine lines • Improve skin elasticity",
-      "protocols": "",
-      "goodWith": "HA, Palmitoyl Pentapeptide-4, GHK-CU, Ceramides, Vitamin E, Vitamin B, Acetyl Hexapeptide-8",
-      "notGoodWith": "High PH, AHA, Vitamin C, Retinol, Vitamin A",
-      "halfLife": "",
-      "notes": "",
-      "link": "https://www.world-of-peptides.com/snap-8-everything-you-need-to-know/",
-      "sideEffects": ""
     },
     {
       "id": "ss-31",
